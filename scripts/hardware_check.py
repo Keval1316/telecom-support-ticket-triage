@@ -27,7 +27,7 @@ def check_versions():
         try:
             mod = importlib.import_module(pkg)
             actual = getattr(mod, "__version__", "unknown")
-            status = "OK" if actual == expected else "MISMATCH"
+            status = "OK" if actual == expected or actual.startswith(expected + "+") else "MISMATCH"
             if status == "MISMATCH":
                 ok = False
             print(f"  {pkg:15s} expected={expected:10s} actual={actual:10s} [{status}]")
