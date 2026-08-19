@@ -1,0 +1,12 @@
+{
+  "dataset_version": "v1.0",
+  "batch_id": "batch_20260817T160409",
+  "teacher_model": "openai/gpt-oss-120b",
+  "seed": 42,
+  "target_size": 2000,
+  "accepted": 1975,
+  "rejected": 23,
+  "generated_at": "2026-08-19T11:33:04.611365+00:00",
+  "output_file": "data\\raw\\tickets_v1.0.jsonl",
+  "num_keys_used": 3
+}
