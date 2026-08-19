@@ -1,46 +1,46 @@
 # Dataset Quality Report
 
 - Dataset version: `v1.0`
-- Total records loaded: 1975
-- Valid records: 1975
+- Total records loaded: 2045
+- Valid records: 2045
 - Malformed/rejected records: 0
 - Suspicious category/department combos (flagged, kept): 0
 
 ## Category distribution
 
-- Technical: 571 (28.9%)
-- Refund: 280 (14.2%)
-- General: 248 (12.6%)
-- Billing: 502 (25.4%)
-- Account: 374 (18.9%)
+- Technical: 571 (27.9%)
+- Refund: 302 (14.8%)
+- General: 282 (13.8%)
+- Billing: 510 (24.9%)
+- Account: 380 (18.6%)
 
 ## Priority distribution
 
-- Medium: 778 (39.4%)
-- High: 536 (27.1%)
-- Critical: 166 (8.4%)
-- Low: 495 (25.1%)
+- Medium: 795 (38.9%)
+- High: 542 (26.5%)
+- Critical: 183 (8.9%)
+- Low: 525 (25.7%)
 
 ## Department distribution
 
-- Technical: 603 (30.5%)
-- Refunds: 304 (15.4%)
-- General Support: 231 (11.7%)
-- Finance: 488 (24.7%)
-- Account: 349 (17.7%)
+- Technical: 609 (29.8%)
+- Refunds: 320 (15.6%)
+- General Support: 231 (11.3%)
+- Finance: 527 (25.8%)
+- Account: 358 (17.5%)
 
 ## Difficulty distribution
 
-- easy: 703 (35.6%)
-- medium: 673 (34.1%)
-- hard: 387 (19.6%)
-- ambiguous: 212 (10.7%)
+- easy: 725 (35.5%)
+- medium: 701 (34.3%)
+- hard: 401 (19.6%)
+- ambiguous: 218 (10.7%)
 ## Balance analysis (category x priority x department)
 
 - Unique combinations present: 37
-- Smallest combo count: 1
+- Smallest combo count: 5
 - Largest combo count: 224
-- Imbalance ratio (max/min): 224.0x
+- Imbalance ratio (max/min): 44.8x
 
 | Category | Priority | Department | Count |
 |---|---|---|---|
@@ -65,19 +65,19 @@
 | Billing | Medium | Refunds | 14 |
 | Refund | Medium | Finance | 13 |
 | Refund | Critical | Refunds | 12 |
+| Refund | High | Finance | 10 |
+| Refund | Low | Finance | 10 |
 | Account | Medium | Technical | 10 |
+| General | Medium | Refunds | 10 |
+| General | Low | Account | 10 |
+| General | Low | Finance | 10 |
+| Account | Low | Technical | 10 |
+| Refund | Critical | Finance | 10 |
+| General | Medium | Finance | 10 |
 | Billing | Low | Refunds | 9 |
+| Billing | Critical | Refunds | 9 |
 | General | High | General Support | 8 |
 | Account | High | Technical | 7 |
 | General | Low | Technical | 6 |
 | General | Low | Refunds | 5 |
 | Account | Critical | Technical | 5 |
-| Refund | High | Finance | 4 |
-| Account | Low | Technical | 4 |
-| Refund | Low | Finance | 3 |
-| General | Medium | Refunds | 2 |
-| General | Low | Finance | 2 |
-| General | Low | Account | 1 |
-| Refund | Critical | Finance | 1 |
-| Billing | Critical | Refunds | 1 |
-| General | Medium | Finance | 1 |

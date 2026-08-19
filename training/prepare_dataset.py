@@ -1,5 +1,7 @@
 ﻿"""
 Phase 7 - Dataset preparation for QLoRA fine-tuning.
+Masks labels so loss is computed ONLY on the assistant's JSON response,
+not the system prompt or the customer's ticket text.
 """
 import argparse
 import csv
@@ -61,28 +63,42 @@ def build_example(row: dict) -> dict:
         "priority": row["priority"],
         "department": row["department"],
     }, ensure_ascii=False)
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": row["review"]},
-        {"role": "assistant", "content": assistant_json},
-    ]
-    return {"messages": messages, "ticket_id": row["ticket_id"]}
+    system_msg = {"role": "system", "content": SYSTEM_PROMPT}
+    user_msg = {"role": "user", "content": row["review"]}
+    assistant_msg = {"role": "assistant", "content": assistant_json}
+    return {
+        "prompt_messages": [system_msg, user_msg],
+        "full_messages": [system_msg, user_msg, assistant_msg],
+        "ticket_id": row["ticket_id"],
+    }
 
 
 def tokenize_examples(examples, tokenizer, max_length):
     from datasets import Dataset
 
-    def _map(batch_messages):
-        texts = [
+    def _map(batch):
+        full_texts = [
             tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=False)
-            for m in batch_messages
+            for m in batch["full_messages"]
         ]
-        enc = tokenizer(texts, truncation=True, max_length=max_length, padding=False)
-        enc["labels"] = [ids[:] for ids in enc["input_ids"]]
-        return enc
+        prompt_texts = [
+            tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
+            for m in batch["prompt_messages"]
+        ]
+        full_enc = tokenizer(full_texts, truncation=True, max_length=max_length, padding=False)
+        prompt_enc = tokenizer(prompt_texts, truncation=True, max_length=max_length, padding=False)
+
+        labels = []
+        for full_ids, prompt_ids in zip(full_enc["input_ids"], prompt_enc["input_ids"]):
+            prompt_len = min(len(prompt_ids), len(full_ids))
+            lbl = [-100] * prompt_len + full_ids[prompt_len:]
+            labels.append(lbl[:len(full_ids)])
+
+        full_enc["labels"] = labels
+        return full_enc
 
     ds = Dataset.from_list(examples)
-    ds = ds.map(lambda batch: _map(batch["messages"]), batched=True, remove_columns=["messages"])
+    ds = ds.map(_map, batched=True, remove_columns=["prompt_messages", "full_messages"])
     return ds
 
 
@@ -106,9 +122,13 @@ def run_split(name: str, tokenizer, max_length: int, self_test: bool):
 
     if len(ds) > 0:
         sample_text = tokenizer.apply_chat_template(
-            examples[0]["messages"], tokenize=False, add_generation_prompt=False
+            examples[0]["full_messages"], tokenize=False, add_generation_prompt=False
         )
+        n_masked = sum(1 for l in ds[0]["labels"] if l == -100)
+        n_total = len(ds[0]["labels"])
         print(f"  {name}: sample formatted example:\n{'-'*50}\n{sample_text}\n{'-'*50}")
+        print(f"  {name}: label check - {n_masked}/{n_total} tokens masked (prompt), "
+              f"{n_total - n_masked} tokens counted in loss (assistant response)")
 
 
 def main():
