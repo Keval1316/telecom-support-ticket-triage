@@ -119,7 +119,7 @@ def main():
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     master_path = PROCESSED_DIR / "master_dataset.csv"
-    all_fields = STANDARD_FIELDS + ["generation_batch", "scenario_type", "difficulty",
+    all_fields = STANDARD_FIELDS + ["generation_batch", "generation_source", "scenario_type", "difficulty",
                                      "teacher_model", "generation_timestamp", "dataset_version", "key_index"]
     with open(master_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=all_fields)
