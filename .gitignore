@@ -27,16 +27,12 @@ models/adapters/telecom-ticket-triage/*
 *.pt
 *.ckpt
 
-# --- Data (raw/generated datasets are big & regenerable; keep manifests/reports) ---
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/splits/**/*.csv
-data/future_testing/*.csv
-data/evaluation/*.csv
-data/demo/*.csv
-!data/demo/sample_upload.csv
+# --- Data (large raw/intermediate files excluded; curated splits and eval csvs tracked) ---
+data/raw/*.jsonl
+data/raw/*.json
+data/processed/*.jsonl
+data/processed/*.json
+
 
 # --- Prepared HuggingFace Datasets (binary arrow files — not tracked, regenerable) ---
 training/prepared/train/
