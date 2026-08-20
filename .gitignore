@@ -38,6 +38,12 @@ data/evaluation/*.csv
 data/demo/*.csv
 !data/demo/sample_upload.csv
 
+# --- Prepared HuggingFace Datasets (binary arrow files — not tracked, regenerable) ---
+training/prepared/train/
+training/prepared/validation/
+training/prepared/test/
+# training/prepared/meta.json is small and IS tracked (kept)
+
 # --- Database ---
 *.db
 *.sqlite3
