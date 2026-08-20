@@ -2,74 +2,81 @@
 
 ## Meta
 - Last updated: 2026-08-20
-- Current phase: Phase 8 - QLoRA training (script written; Colab run PENDING)
-- Completed phases: [0, 1, 2, 3, 4, 5, 6, 7-PENDING-real-run]
+- Current phase: Phase 6 to Phase 8 — Model Download, Preparation & QLoRA Fine-Tuning Execution
+- Completed phases: [0, 1, 2, 3, 4, 5]
 - Frontend stack: React + Vite + Tailwind + Framer Motion + Recharts
-- Base model: Qwen2.5-3B
+- Base model: Qwen2.5-3B (Qwen/Qwen2.5-3B)
 - Fine-tuning method: QLoRA (4-bit NF4)
 
-## Phases 3-6 Status (VERIFIED CORRECT as of 2026-08-20)
-- Phase 3: COMPLETE - 2045 raw records in tickets_v1.0.jsonl (1975 main + 70 top-up)
-- Phase 4: COMPLETE - deduplicate.py, validate_generated_data.py, balance_dataset.py all ran; 0 malformed, 0 suspicious combos, imbalance 44.8x (down from 224x), smallest combo = 5
-- Phase 5: COMPLETE - splits: train=1288, val=276, test=276, future_test=205
-- Phase 6: COMPLETE - models/base/Qwen2.5-3B/ downloaded on Colab/Drive (not in git)
-
-## Phase 7 Status
-- prepare_dataset.py: WRITTEN and CORRECT (label masking on assistant JSON only)
-- Self-test run: previously done (dummy data only)
-- REAL RUN: PENDING - run in Colab via notebooks/phase7_prepare_dataset_cells.py
-- Expected output: training/prepared/{train,validation,test}/ + training/prepared/meta.json
-
-## Phase 8 Status
-- training/train.py: WRITTEN and COMMITTED
-- notebooks/phase8_train_cells.py: WRITTEN and COMMITTED (includes inference smoke test)
-- ACTUAL TRAINING RUN: PENDING - must run in Colab after Phase 7 real run
+## Phases Status Summary
+- Phase 0: COMPLETE — Requirements & Architecture established
+- Phase 1: COMPLETE — Project initialized & folder structure created
+- Phase 2: COMPLETE — Environment checked & dependencies verified
+- Phase 3: COMPLETE — 2,045 raw records generated via Groq Data Factory
+- Phase 4: COMPLETE — Data deduplication, schema validation, and class balancing completed
+- Phase 5: COMPLETE — Splits created: Train=1,288, Val=276, Test=276, Future-Test=205, Evaluation & Demo datasets created
+- Phase 6: CODE READY (Colab Run Pending) — `training/download_base_model.py` and `notebooks/phase6_download_cells.py` created
+- Phase 7: CODE READY (Colab Run Pending) — `training/prepare_dataset.py` and `notebooks/phase7_prepare_dataset_cells.py` created (masks prompt with -100)
+- Phase 8: CODE READY (Colab Run Pending) — `training/train.py` and `notebooks/phase8_train_cells.py` created (SFTTrainer + 4-bit NF4 LoRA)
+- Phase 9: CODE READY — `training/evaluate.py` created (Accuracy, Recall, Macro-F1, Critical Safety analysis)
+- Phase 10: CODE READY — `training/confidence.py` & `training/threshold_analysis.py` created
+- Phase 11: CODE READY — `backend/app/ml/priority_escalator.py` created (Deterministic safety escalation engine)
+- Phase 12: CODE READY — `backend/app/ml/inference.py` created (Local 4-bit inference engine, zero runtime Groq cost)
 
 ## Key decisions locked in
-- All prior decisions unchanged (Colab T4, 3 Groq accounts, GROQ_MODEL=openai/gpt-oss-120b, json_schema strict, max_retries=0, JSONL-then-CSV, SQLite dev DB, Rs0 runtime cost, single main branch, triton==2.3.0 fix)
-- SECURITY: 3 Groq API keys in earlier chat session. .env never committed. Rotate when convenient.
-- BUG FIXED (2026-08-19): split_dataset.py missing generation_source field. Fixed and committed.
-- Dataset balance: targeted top-up for 9 worst combos; full QC re-run; 44.8x ratio (acceptable).
-- Phase 7: loss computed ONLY on assistant JSON tokens (prompt masked with -100).
-- Phase 8 hyperparameters: 4-bit NF4 quant + double quant, LoRA rank=16 alpha=32 on 7 Qwen2 projection layers (q/k/v/o_proj + gate/up/down_proj), 3 epochs, cosine LR, warmup_ratio=0.03, paged_adamw_8bit, bs=2 grad_acc=8 (effective=16), eval/save per epoch, load_best_model_at_end (metric=eval_loss), adapter saved separately from base.
+- Training environment: Google Colab T4 GPU (16 GB VRAM)
+- Model: Qwen/Qwen2.5-3B quantized to 4-bit NF4 with double quantization
+- LoRA config: r=16, alpha=32, target_modules: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
+- SFTTrainer config: 3 epochs, cosine LR scheduler (lr=2e-4), warmup_ratio=0.03, paged_adamw_8bit, batch_size=2, grad_accum=8 (effective batch size=16), max_length=512
+- Prompt & Label masking: System prompt & user ticket masked with -100; loss calculated exclusively on assistant JSON tokens
+- Safety & routing: Calibrated token confidence threshold (~0.85) + deterministic priority escalator for emergency/security/outage keywords
+- Runtime cost: ₹0 runtime cost (local quantized Qwen2.5-3B + LoRA adapter, no paid APIs for inference)
 
-## Repo state (as of commit 04dda1d, 2026-08-20)
-- training/train.py - Phase 8 QLoRA training script (NEW, committed)
-- notebooks/phase7_prepare_dataset_cells.py - Phase 7 Colab cells (NEW, committed)
-- notebooks/phase8_train_cells.py - Phase 8 Colab cells with smoke test (NEW, committed)
-- .gitignore - added training/prepared/ exclusions for binary HF arrow files
-- data/splits/train.csv: 1288 rows - FINAL
-- data/splits/validation.csv: 276 rows - FINAL
-- data/splits/test.csv: 276 rows - FINAL
-- data/future_testing/future_test.csv: 205 rows - LOCKED (never use for training/tuning)
-- reports/dataset_report.md: 2045 records, 37 combos, ratio 44.8x
-- training/prepared/: NOT in git - regenerate via Phase 7 in Colab
-- models/base/Qwen2.5-3B: on Colab Drive, NOT in git
-- models/adapters/telecom-ticket-triage: will be populated after Phase 8 training run
+## Repo state
+- `training/download_base_model.py`: Phase 6 snapshot downloader & verification
+- `training/prepare_dataset.py`: Phase 7 prompt formatter & label masker
+- `training/train.py`: Phase 8 QLoRA fine-tuning script
+- `training/evaluate.py`: Phase 9 comprehensive model evaluation on test split
+- `training/confidence.py`: Phase 10 confidence estimation & calibration
+- `training/threshold_analysis.py`: Phase 10 confidence threshold sweep (0.70 - 0.90)
+- `backend/app/ml/priority_escalator.py`: Phase 11 deterministic safety escalation engine
+- `backend/app/ml/inference.py`: Phase 12 local inference service
+- `notebooks/phase6_download_cells.py`: Colab cells for Phase 6
+- `notebooks/phase7_prepare_dataset_cells.py`: Colab cells for Phase 7
+- `notebooks/phase8_train_cells.py`: Colab cells for Phase 8
+- `notebooks/phase9_eval_cells.py`: Colab cells for Phase 9 & 10
+- `data/splits/train.csv`: 1,288 rows (Final)
+- `data/splits/validation.csv`: 276 rows (Final)
+- `data/splits/test.csv`: 276 rows (Final)
+- `data/future_testing/future_test.csv`: 205 rows (Locked)
 
 ## Environment notes
-- GPU locally: RTX 2050 4GB - NOT sufficient for QLoRA training; use Colab T4
-- Colab T4 (16 GB): confirmed working; re-bootstrap each new session
-- Groq accounts: recovered from daily quota exhaustion (2026-08-19)
-
-## Open issues / blockers
-- None blocking Phase 7+8. Ready to execute in Colab.
-- After Phase 8 training: paste training_log.json back for review before Phase 9.
-- Confirm Phase 8 Cell 10 inference smoke test produces valid JSON.
+- Local GPU: RTX 2050 4GB — used for lightweight local test/dev; training executes on Google Colab T4.
+- Colab GPU: T4 (16 GB) — verified for 4-bit QLoRA fine-tuning.
 
 ## Next action
-1. Open Google Colab. Runtime -> T4 GPU.
-2. Mount Drive, set REPO_DIR, git pull.
-3. pip install -q -r training/requirements-colab.txt followed by pip install -q triton==2.3.0
-4. Run Phase 7 cells (notebooks/phase7_prepare_dataset_cells.py):
-   - Cell 7: python training/prepare_dataset.py --model-path models/base/Qwen2.5-3B --max-length 512
-   - Cell 8: verify PASSED (label masking OK)
-   - Cell 10: if truncation >5%, re-run with --max-length 768 and update train.py arg
-   - Cell 11: git add/commit/push meta.json
-5. Run Phase 8 cells (notebooks/phase8_train_cells.py):
-   - Cell 7: python training/train.py --model-path models/base/Qwen2.5-3B --max-length 512 (45-90 min on T4)
-   - Cell 8: review training_log.json metrics
-   - Cell 10: inference smoke test MUST produce valid JSON before proceeding
-   - Cell 11: git add/commit/push
-6. Paste training_log.json contents back for review.
-7. Begin Phase 9 (evaluate.py against test split).
+1. Open Google Colab with **T4 GPU** runtime.
+2. Mount Google Drive and set working directory to repo root.
+3. Install dependencies:
+   ```bash
+   pip install -q -r training/requirements-colab.txt
+   pip install -q triton==2.3.0
+   ```
+4. Execute Phase 6 (Base Model Download):
+   ```bash
+   python training/download_base_model.py --model-id Qwen/Qwen2.5-3B --target-dir models/base/Qwen2.5-3B
+   ```
+5. Execute Phase 7 (Tokenization & Dataset Preparation):
+   ```bash
+   python training/prepare_dataset.py --model-path models/base/Qwen2.5-3B --max-length 512
+   ```
+6. Execute Phase 8 (QLoRA Fine-Tuning):
+   ```bash
+   python training/train.py --model-path models/base/Qwen2.5-3B --max-length 512
+   ```
+7. Execute Phase 9 & 10 (Evaluation & Threshold Analysis):
+   ```bash
+   python training/evaluate.py --base-model models/base/Qwen2.5-3B --adapter-path models/adapters/telecom-ticket-triage
+   python training/threshold_analysis.py
+   ```
+8. Review `reports/evaluation_report.md` and `reports/threshold_analysis.md`.
