@@ -28,10 +28,11 @@ from pathlib import Path
 
 import torch
 from datasets import load_from_disk
+# pyrefly: ignore [missing-import]
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, DataCollatorForSeq2Seq
 from trl import SFTConfig, SFTTrainer
-
+    
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -80,6 +81,10 @@ def parse_args():
         "--output-dir", default=str(ADAPTER_DIR),
         help="Where to save the LoRA adapter and training state"
     )
+    parser.add_argument(
+        "--resume", action="store_true",
+        help="Resume training from latest checkpoint in output-dir"
+    )
     return parser.parse_args()
 
 
@@ -118,24 +123,26 @@ def verify_prepared_datasets(prepared_dir: Path, max_length: int):
 
 
 def load_model_and_tokenizer(model_path: str):
-    """Load Qwen2.5-3B in 4-bit NF4 quantization mode."""
+    """Load Qwen2.5-3B in 4-bit NF4 quantization mode with hardware-matched precision."""
+    use_bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
+    compute_dtype = torch.bfloat16 if use_bf16 else torch.float16
+
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,  # double quantization reduces memory ~0.4 bits/param
+        bnb_4bit_compute_dtype=compute_dtype,
+        bnb_4bit_use_double_quant=True,
     )
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     if tokenizer.pad_token is None:
-        # Qwen2 uses <|endoftext|> as eos; set pad = eos so the model doesn't error
         tokenizer.pad_token = tokenizer.eos_token
 
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
         quantization_config=bnb_config,
         device_map="auto",
-        trust_remote_code=True,  # Qwen2 needs this
+        trust_remote_code=True,
     )
     model = prepare_model_for_kbit_training(model)
     return model, tokenizer
@@ -165,20 +172,8 @@ def apply_lora(model, lora_rank: int, lora_alpha: int):
 
 
 def build_sft_config(args, output_dir: str) -> SFTConfig:
-    """
-    Build the SFTConfig (replaces TrainingArguments for SFTTrainer in TRL >=0.9).
+    use_bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
 
-    Key decisions:
-    - bf16=True: BFloat16 on T4 is faster and more stable than fp16 for LLMs.
-    - paged_adamw_8bit: offloads optimizer states to CPU pages, saving ~6 GB VRAM
-      which is critical on the 16 GB T4 with a 3B-parameter model.
-    - save_strategy="epoch" + load_best_model_at_end=True + metric_for_best_model=
-      "eval_loss": saves every epoch and keeps the best checkpoint.
-    - dataset_text_field is NOT set here because we pass pre-tokenized datasets
-      (input_ids + labels already present); SFTTrainer handles this path correctly.
-    - max_seq_length must be passed in SFTConfig (not just to the tokenizer) when
-      using pre-tokenized datasets so the trainer's data collator doesn't truncate.
-    """
     return SFTConfig(
         output_dir=output_dir,
 
@@ -189,16 +184,16 @@ def build_sft_config(args, output_dir: str) -> SFTConfig:
 
         # --- Training loop ---
         num_train_epochs=args.epochs,
-        max_steps=-1,  # -1 means use num_train_epochs
+        max_steps=-1,
 
         # --- LR schedule ---
         learning_rate=args.learning_rate,
         lr_scheduler_type="cosine",
-        warmup_ratio=0.03,  # 3% of steps as warm-up
+        warmup_ratio=0.03,
 
-        # --- Precision ---
-        bf16=True,
-        fp16=False,
+        # --- Precision (Native FP16 for T4, BF16 for Ampere+) ---
+        bf16=use_bf16,
+        fp16=not use_bf16,
 
         # --- Optimizer ---
         optim="paged_adamw_8bit",
@@ -212,14 +207,10 @@ def build_sft_config(args, output_dir: str) -> SFTConfig:
 
         # --- Checkpointing ---
         save_strategy="epoch",
-        eval_strategy="epoch",          # evaluate at the end of each epoch
-        load_best_model_at_end=True,    # reload best checkpoint after training
+        eval_strategy="epoch",
+        load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         greater_is_better=False,
-
-        # --- Dataset text field ---
-        # Leave unset: we pass pre-tokenized datasets with input_ids + labels columns.
-        # Setting dataset_text_field would cause SFTTrainer to try to re-tokenize.
         dataset_kwargs={"skip_prepare_dataset": True},
     )
 
@@ -320,9 +311,20 @@ def main():
 
     trainer = SFTTrainer(**trainer_kwargs)
 
-    # --- Train ---
-    print("\n--- Starting training ---")
-    train_result = trainer.train()
+    # --- Check for existing checkpoints to resume from ---
+    out_dir = Path(args.output_dir)
+    checkpoints = sorted(
+        [p for p in out_dir.glob("checkpoint-*") if p.is_dir() and p.name.split("-")[-1].isdigit()],
+        key=lambda p: int(p.name.split("-")[-1])
+    ) if out_dir.exists() else []
+
+    if (args.resume or checkpoints) and checkpoints:
+        latest_cp = str(checkpoints[-1])
+        print(f"\n--- Resuming training from existing checkpoint: {latest_cp} ---")
+        train_result = trainer.train(resume_from_checkpoint=latest_cp)
+    else:
+        print("\n--- Starting training ---")
+        train_result = trainer.train()
 
     # --- Save adapter ---
     print("\n--- Saving LoRA adapter ---")
