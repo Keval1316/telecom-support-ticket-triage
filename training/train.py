@@ -29,7 +29,7 @@ from pathlib import Path
 import torch
 from datasets import load_from_disk
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, DataCollatorForSeq2Seq
 from trl import SFTConfig, SFTTrainer
 
 # ---------------------------------------------------------------------------
@@ -295,12 +295,21 @@ def main():
     print(f"  max_seq_length: {args.max_length}")
     print(f"  output: {args.output_dir}")
 
+    # --- Build data collator for dynamic sequence padding ---
+    data_collator = DataCollatorForSeq2Seq(
+        tokenizer=tokenizer,
+        pad_to_multiple_of=8,
+        return_tensors="pt",
+        padding=True,
+    )
+
     # --- Build trainer ---
     trainer_kwargs = {
         "model": model,
         "args": sft_config,
         "train_dataset": train_dataset,
         "eval_dataset": eval_dataset,
+        "data_collator": data_collator,
     }
     import inspect
     sig = inspect.signature(SFTTrainer.__init__)

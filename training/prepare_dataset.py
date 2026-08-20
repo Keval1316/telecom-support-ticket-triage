@@ -1,4 +1,4 @@
-﻿"""
+"""
 Phase 7 - Dataset preparation for QLoRA fine-tuning.
 Masks labels so loss is computed ONLY on the assistant's JSON response,
 not the system prompt or the customer's ticket text.
@@ -98,7 +98,7 @@ def tokenize_examples(examples, tokenizer, max_length):
         return full_enc
 
     ds = Dataset.from_list(examples)
-    ds = ds.map(_map, batched=True, remove_columns=["prompt_messages", "full_messages"])
+    ds = ds.map(_map, batched=True, remove_columns=["prompt_messages", "full_messages", "ticket_id"])
     return ds
 
 
