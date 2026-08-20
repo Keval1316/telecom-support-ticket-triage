@@ -296,13 +296,20 @@ def main():
     print(f"  output: {args.output_dir}")
 
     # --- Build trainer ---
-    trainer = SFTTrainer(
-        model=model,
-        args=sft_config,
-        train_dataset=train_dataset,
-        eval_dataset=eval_dataset,
-        processing_class=tokenizer,
-    )
+    trainer_kwargs = {
+        "model": model,
+        "args": sft_config,
+        "train_dataset": train_dataset,
+        "eval_dataset": eval_dataset,
+    }
+    import inspect
+    sig = inspect.signature(SFTTrainer.__init__)
+    if "processing_class" in sig.parameters:
+        trainer_kwargs["processing_class"] = tokenizer
+    else:
+        trainer_kwargs["tokenizer"] = tokenizer
+
+    trainer = SFTTrainer(**trainer_kwargs)
 
     # --- Train ---
     print("\n--- Starting training ---")
