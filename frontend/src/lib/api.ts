@@ -20,7 +20,7 @@ export interface Ticket {
   predicted_priority: string
   predicted_department: string
   confidence: number
-  routing_status: 'AUTO_ROUTED' | 'HUMAN_REVIEW'
+  routing_status: 'AUTO_ROUTED' | 'HUMAN_REVIEW' | 'RESOLVED' | string
   escalated: boolean
   escalation_reason?: string
   final_category: string
@@ -37,6 +37,7 @@ export interface AnalyticsSummary {
   total_tickets: number
   auto_routed_count: number
   human_review_count: number
+  resolved_review_count: number
   auto_routing_rate: number
   avg_confidence: number
   critical_count: number
@@ -106,7 +107,8 @@ export const fetchAnalyticsTrends = async (days_window = 7): Promise<AnalyticsTr
 }
 
 export const fetchReviewQueue = async (): Promise<Ticket[]> => {
-  const res = await apiClient.get('/review-queue')
+  // Fetch up to 500 — ensures page count matches navbar badge count
+  const res = await apiClient.get('/review-queue', { params: { limit: 500 } })
   return res.data
 }
 
@@ -122,3 +124,38 @@ export const resolveReviewTicket = async (
   const res = await apiClient.post(`/review-queue/${ticketId}/resolve`, data)
   return res.data
 }
+
+export const updateTicketLabels = async (
+  ticketId: number,
+  data: {
+    final_category: string
+    final_priority: string
+    final_department: string
+    reviewer_notes?: string
+  }
+): Promise<Ticket> => {
+  const res = await apiClient.put(`/tickets/${ticketId}`, data)
+  return res.data
+}
+
+
+export const resolveAllReviewTickets = async (): Promise<{ message: string; resolved_count: number }> => {
+  const res = await apiClient.post('/review-queue/resolve-all')
+  return res.data
+}
+
+export const clearReviewQueue = async (): Promise<{ message: string; deleted_count: number }> => {
+  const res = await apiClient.delete('/review-queue/clear')
+  return res.data
+}
+
+export const clearAllTickets = async (): Promise<{ message: string; deleted_count: number }> => {
+  const res = await apiClient.delete('/admin/clear-all')
+  return res.data
+}
+
+export const recalculateConfidenceScores = async (): Promise<{ message: string; updated_count: number }> => {
+  const res = await apiClient.post('/admin/recalculate-confidence')
+  return res.data
+}
+

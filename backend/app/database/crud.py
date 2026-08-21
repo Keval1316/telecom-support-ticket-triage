@@ -102,9 +102,66 @@ def resolve_review_ticket(
     ticket.final_department = final_department
     ticket.reviewer_notes = reviewer_notes
     ticket.is_reviewed = True
+    ticket.routing_status = "RESOLVED"
     ticket.reviewed_at = datetime.utcnow()
     ticket.updated_at = datetime.utcnow()
 
     db.commit()
     db.refresh(ticket)
     return ticket
+
+
+def resolve_all_review_tickets(db: Session) -> int:
+    """Marks all unresolved HUMAN_REVIEW tickets as reviewed (pass all). Returns count."""
+    pending = (
+        db.query(Ticket)
+        .filter(Ticket.routing_status == "HUMAN_REVIEW", Ticket.is_reviewed == False)
+        .all()
+    )
+    now = datetime.utcnow()
+    for ticket in pending:
+        ticket.is_reviewed = True
+        ticket.routing_status = "RESOLVED"
+        ticket.reviewed_at = now
+        ticket.updated_at = now
+        ticket.reviewer_notes = "Bulk approved via Pass All"
+    db.commit()
+    return len(pending)
+
+
+def clear_review_queue(db: Session) -> int:
+    """Permanently deletes all unresolved HUMAN_REVIEW tickets. Returns deleted count."""
+    pending = (
+        db.query(Ticket)
+        .filter(Ticket.routing_status == "HUMAN_REVIEW", Ticket.is_reviewed == False)
+        .all()
+    )
+    count = len(pending)
+    for ticket in pending:
+        db.delete(ticket)
+    db.commit()
+    return count
+
+
+def clear_all_tickets(db: Session) -> int:
+    """Permanently deletes ALL tickets from the database. Returns deleted count."""
+    count = db.query(Ticket).count()
+    db.query(Ticket).delete()
+    db.commit()
+    return count
+
+
+def recalculate_all_confidence(db: Session) -> int:
+    """Re-runs heuristic confidence scorer on all tickets to fix old fake 92% values."""
+    from backend.app.ml.inference import TriageInferenceEngine
+    engine = TriageInferenceEngine()
+    engine.load()
+
+    tickets = db.query(Ticket).all()
+    for ticket in tickets:
+        # Re-predict using the same heuristic to get a properly varied confidence
+        _, new_confidence = engine._heuristic_predict(ticket.review)
+        ticket.confidence = new_confidence
+        ticket.updated_at = datetime.utcnow()
+    db.commit()
+    return len(tickets)

@@ -61,6 +61,7 @@ class AnalyticsSummaryResponse(BaseModel):
     total_tickets: int
     auto_routed_count: int
     human_review_count: int
+    resolved_review_count: Optional[int] = 0
     auto_routing_rate: float
     avg_confidence: float
     critical_count: int

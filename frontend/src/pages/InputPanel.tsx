@@ -4,6 +4,38 @@ import { useDropzone } from 'react-dropzone'
 import { AlertCircle, ArrowRight, CheckCircle2, FileText, Loader2, Play, Send, ShieldAlert, Sparkles, UploadCloud } from 'lucide-react'
 import { triageSingleTicket, uploadBatchCsv, Ticket } from '../lib/api'
 
+/**
+ * RFC-4180 compliant CSV line parser.
+ * Handles quoted fields that may contain commas, newlines, and escaped double-quotes.
+ */
+function parseCSVLine(line: string): string[] {
+  const result: string[] = []
+  let current = ''
+  let inQuotes = false
+
+  for (let i = 0; i < line.length; i++) {
+    const char = line[i]
+    const next = line[i + 1]
+
+    if (char === '"' && inQuotes && next === '"') {
+      // Escaped double-quote inside quoted field
+      current += '"'
+      i++ // skip next quote
+    } else if (char === '"') {
+      // Toggle quote mode
+      inQuotes = !inQuotes
+    } else if (char === ',' && !inQuotes) {
+      // Field separator outside quotes
+      result.push(current.trim())
+      current = ''
+    } else {
+      current += char
+    }
+  }
+  result.push(current.trim()) // push last field
+  return result
+}
+
 interface InputPanelProps {
   onTriageComplete: () => void
 }
@@ -61,7 +93,7 @@ export const InputPanel: React.FC<InputPanelProps> = ({ onTriageComplete }) => {
         reader.onload = (e) => {
           const text = e.target?.result as string
           const lines = text.split('\n').filter((l) => l.trim().length > 0)
-          const rows = lines.slice(0, 6).map((line) => line.split(','))
+          const rows = lines.slice(0, 6).map((line) => parseCSVLine(line))
           setCsvPreview(rows)
         }
         reader.readAsText(file)
@@ -453,7 +485,7 @@ export const InputPanel: React.FC<InputPanelProps> = ({ onTriageComplete }) => {
                   <div className="w-full h-1.5 rounded-full bg-white/10 overflow-hidden">
                     <div
                       className={`h-full rounded-full ${
-                        singleResult.confidence >= 0.85 ? 'bg-emerald-400' : 'bg-amber-400'
+                        singleResult.confidence >= 0.70 ? 'bg-emerald-400' : 'bg-amber-400'
                       }`}
                       style={{ width: `${singleResult.confidence * 100}%` }}
                     />

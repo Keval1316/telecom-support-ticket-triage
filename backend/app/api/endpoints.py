@@ -11,6 +11,10 @@ from backend.app.database.crud import (
     get_review_queue,
     get_ticket_by_id,
     resolve_review_ticket,
+    resolve_all_review_tickets,
+    clear_review_queue,
+    clear_all_tickets,
+    recalculate_all_confidence,
 )
 from backend.app.database.session import get_db
 from backend.app.schemas.ticket import (
@@ -83,6 +87,23 @@ def list_tickets(
     }
 
 
+@router.put("/tickets/{ticket_id}", response_model=TicketResponse, summary="Manager override ticket labels")
+def update_ticket_endpoint(ticket_id: int, request: ResolveTicketRequest, db: Session = Depends(get_db)):
+    """Allows manager to manually override category, priority, and department for any ticket."""
+    updated = resolve_review_ticket(
+        db=db,
+        ticket_id=ticket_id,
+        final_category=request.final_category,
+        final_priority=request.final_priority,
+        final_department=request.final_department,
+        reviewer_notes=request.reviewer_notes or "Manager manual override from filter table",
+    )
+    if not updated:
+        raise HTTPException(status_code=404, detail=f"Ticket #{ticket_id} not found.")
+    return updated.to_dict()
+
+
+
 @router.get("/analytics/summary", response_model=AnalyticsSummaryResponse, summary="Get executive dashboard KPIs")
 def analytics_summary(db: Session = Depends(get_db)):
     """Returns total volume, auto-routing rate, average confidence, and label distributions."""
@@ -96,7 +117,7 @@ def analytics_trends(days_window: int = Query(7, ge=1, le=30), db: Session = Dep
 
 
 @router.get("/review-queue", summary="Get tickets awaiting human review")
-def get_review_queue_endpoint(limit: int = Query(50, ge=1, le=200), db: Session = Depends(get_db)):
+def get_review_queue_endpoint(limit: int = Query(50, ge=1, le=10000), db: Session = Depends(get_db)):
     """Fetches low-confidence or safety-escalated tickets awaiting manager oversight."""
     tickets = get_review_queue(db, limit=limit)
     return [t.to_dict() for t in tickets]
@@ -116,3 +137,31 @@ def resolve_ticket(ticket_id: int, request: ResolveTicketRequest, db: Session = 
     if not updated:
         raise HTTPException(status_code=404, detail=f"Ticket #{ticket_id} not found.")
     return updated.to_dict()
+
+
+@router.post("/review-queue/resolve-all", summary="Mark all pending review tickets as resolved (pass all)")
+def resolve_all_tickets(db: Session = Depends(get_db)):
+    """Bulk-resolves all pending HUMAN_REVIEW tickets as approved with no label changes."""
+    count = resolve_all_review_tickets(db)
+    return {"message": f"{count} ticket(s) marked as resolved.", "resolved_count": count}
+
+
+@router.delete("/review-queue/clear", summary="Delete all pending review tickets from DB")
+def clear_pending_queue(db: Session = Depends(get_db)):
+    """Permanently deletes all unresolved HUMAN_REVIEW tickets from the database."""
+    count = clear_review_queue(db)
+    return {"message": f"{count} pending ticket(s) deleted.", "deleted_count": count}
+
+
+@router.delete("/admin/clear-all", summary="Wipe entire ticket database")
+def clear_all_data(db: Session = Depends(get_db)):
+    """Permanently deletes ALL tickets from the database. Irreversible."""
+    count = clear_all_tickets(db)
+    return {"message": f"All {count} ticket(s) deleted. Database is now empty.", "deleted_count": count}
+
+
+@router.post("/admin/recalculate-confidence", summary="Recalculate confidence scores for all existing tickets")
+def recalculate_confidence(db: Session = Depends(get_db)):
+    """Re-runs the heuristic confidence scorer on all tickets to fix old fake 92% values."""
+    count = recalculate_all_confidence(db)
+    return {"message": f"Recalculated confidence for {count} ticket(s).", "updated_count": count}

@@ -4,7 +4,7 @@ import { InputPanel } from './pages/InputPanel'
 import { DashboardView } from './pages/DashboardView'
 import { FilterTrendsView } from './pages/FilterTrendsView'
 import { ReviewQueueView } from './pages/ReviewQueueView'
-import { fetchAnalyticsSummary, fetchReviewQueue, AnalyticsSummary } from './lib/api'
+import { fetchAnalyticsSummary, AnalyticsSummary } from './lib/api'
 
 export const App: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<string>('input')
@@ -14,9 +14,10 @@ export const App: React.FC = () => {
 
   const refreshGlobalTelemetry = async () => {
     try {
-      const [sum, queue] = await Promise.all([fetchAnalyticsSummary(), fetchReviewQueue()])
+      const sum = await fetchAnalyticsSummary()
       setSummary(sum)
-      setReviewCount(queue.length)
+      // Use the analytics summary's pending review count (unresolved HUMAN_REVIEW tickets only)
+      setReviewCount(sum.human_review_count)
     } catch (e) {
       console.error('Error updating telemetry:', e)
     } finally {
@@ -39,7 +40,7 @@ export const App: React.FC = () => {
         {currentTab === 'input' && <InputPanel onTriageComplete={refreshGlobalTelemetry} />}
         {currentTab === 'dashboard' && <DashboardView summary={summary} loading={loading} />}
         {currentTab === 'trends' && <FilterTrendsView />}
-        {currentTab === 'review' && <ReviewQueueView onResolved={refreshGlobalTelemetry} />}
+        {currentTab === 'review' && <ReviewQueueView onResolved={refreshGlobalTelemetry} totalReviewCount={reviewCount} />}
       </main>
 
       <footer className="glass-panel border-t border-white/5 py-4 px-6 text-center text-xs text-slate-500">

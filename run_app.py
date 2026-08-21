@@ -11,7 +11,7 @@ REPO_ROOT = Path(__file__).resolve().parent
 
 def main():
     print("=" * 60)
-    print("🚀 STARTING TELECOM SUPPORT TICKET TRIAGE SYSTEM")
+    print("STARTING TELECOM SUPPORT TICKET TRIAGE SYSTEM")
     print("=" * 60)
 
     # 1. Start FastAPI Backend
@@ -28,9 +28,9 @@ def main():
     frontend_proc = subprocess.Popen(frontend_cmd, cwd=frontend_dir)
 
     print("\n" + "=" * 60)
-    print("✨ APPLICATION RUNNING:")
-    print("   🌐 Dashboard UI: http://localhost:5173")
-    print("   📚 API Swagger Docs: http://localhost:8000/docs")
+    print("APPLICATION RUNNING:")
+    print("   Dashboard UI:      http://localhost:5173")
+    print("   API Swagger Docs:  http://localhost:8000/docs")
     print("=" * 60)
     print("Press Ctrl+C to terminate both servers.\n")
 

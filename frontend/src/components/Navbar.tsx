@@ -27,12 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, revie
         <div>
           <div className="flex items-center gap-2">
             <h1 className="text-lg font-bold tracking-tight text-white font-['Outfit']">TelecomAI Triage</h1>
-            <span className="px-2 py-0.5 text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded-full flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              ₹0 Runtime Local LLM
-            </span>
           </div>
-          <p className="text-xs text-slate-400">Qwen2.5-3B QLoRA • Structured Classification & Safety Layer</p>
         </div>
       </div>
 

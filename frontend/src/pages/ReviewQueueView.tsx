@@ -1,22 +1,36 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { AlertCircle, Check, CheckCircle2, CornerDownRight, Inbox, Loader2, ShieldAlert, Sparkles, UserCheck } from 'lucide-react'
-import { fetchReviewQueue, resolveReviewTicket, Ticket } from '../lib/api'
+import { AlertCircle, Check, CheckCircle2, CornerDownRight, Inbox, Loader2, ShieldAlert, Sparkles, UserCheck, CheckCheck, Trash2, RefreshCw } from 'lucide-react'
+import {
+  fetchReviewQueue,
+  resolveReviewTicket,
+  resolveAllReviewTickets,
+  clearReviewQueue,
+  recalculateConfidenceScores,
+  Ticket,
+} from '../lib/api'
 
 interface ReviewQueueViewProps {
   onResolved: () => void
+  totalReviewCount: number
 }
 
-export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) => {
+export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved, totalReviewCount }) => {
   const [queue, setQueue] = useState<Ticket[]>([])
   const [loading, setLoading] = useState(true)
   const [resolvingId, setResolvingId] = useState<number | null>(null)
-  const [toastMessage, setToastMessage] = useState<string | null>(null)
+  const [bulkLoading, setBulkLoading] = useState<string | null>(null)
+  const [toastMessage, setToastMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null)
 
   // Local editing states per ticket
   const [edits, setEdits] = useState<
     Record<number, { category: string; priority: string; department: string; notes: string }>
   >({})
+
+  const showToast = (text: string, type: 'success' | 'error' = 'success') => {
+    setToastMessage({ text, type })
+    setTimeout(() => setToastMessage(null), 4000)
+  }
 
   const loadQueue = async () => {
     setLoading(true)
@@ -71,13 +85,64 @@ export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) 
 
       // Optimistically remove from queue
       setQueue((prev) => prev.filter((t) => t.id !== ticket.id))
-      setToastMessage(`✓ Ticket #${ticket.ticket_id} resolved and logged for active learning!`)
-      setTimeout(() => setToastMessage(null), 3500)
+      showToast(`✓ Ticket #${ticket.ticket_id} resolved and logged for active learning!`)
       onResolved()
     } catch (e) {
       console.error('Failed to resolve ticket:', e)
+      showToast('Failed to resolve ticket', 'error')
     } finally {
       setResolvingId(null)
+    }
+  }
+
+  const handlePassAll = async () => {
+    if (!window.confirm(`Are you sure you want to approve and pass all ${totalReviewCount} pending review tickets?`)) {
+      return
+    }
+    setBulkLoading('pass-all')
+    try {
+      const res = await resolveAllReviewTickets()
+      setQueue([])
+      showToast(`✓ ${res.resolved_count} ticket(s) approved and marked as resolved!`)
+      onResolved()
+    } catch (e) {
+      console.error('Failed to pass all tickets:', e)
+      showToast('Failed to pass all tickets', 'error')
+    } finally {
+      setBulkLoading(null)
+    }
+  }
+
+  const handleDeletePendingQueue = async () => {
+    if (!window.confirm(`Warning: Permanently delete all ${totalReviewCount} pending review tickets from the database?`)) {
+      return
+    }
+    setBulkLoading('delete-pending')
+    try {
+      const res = await clearReviewQueue()
+      setQueue([])
+      showToast(`✓ ${res.deleted_count} pending ticket(s) permanently deleted.`)
+      onResolved()
+    } catch (e) {
+      console.error('Failed to clear queue:', e)
+      showToast('Failed to delete pending queue', 'error')
+    } finally {
+      setBulkLoading(null)
+    }
+  }
+
+  const handleRecalculateConfidence = async () => {
+    setBulkLoading('recalc-conf')
+    try {
+      const res = await recalculateConfidenceScores()
+      showToast(`✓ Confidence scores recalculated for ${res.updated_count} ticket(s)!`)
+      await loadQueue()
+      onResolved()
+    } catch (e) {
+      console.error('Failed to recalculate confidence:', e)
+      showToast('Failed to recalculate confidence', 'error')
+    } finally {
+      setBulkLoading(null)
     }
   }
 
@@ -90,32 +155,73 @@ export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed top-20 right-8 z-50 p-4 rounded-xl bg-emerald-600 text-white font-medium text-xs shadow-2xl shadow-emerald-500/30 flex items-center gap-2 border border-emerald-400"
+            className={`fixed top-20 right-8 z-50 p-4 rounded-xl text-white font-medium text-xs shadow-2xl flex items-center gap-2 border ${
+              toastMessage.type === 'success'
+                ? 'bg-emerald-600 border-emerald-400 shadow-emerald-500/30'
+                : 'bg-rose-600 border-rose-400 shadow-rose-500/30'
+            }`}
           >
             <CheckCircle2 className="w-5 h-5" />
-            <span>{toastMessage}</span>
+            <span>{toastMessage.text}</span>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Header Banner */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 glass-card p-6 rounded-2xl border border-white/10">
+      {/* Header Banner with Bulk Action Buttons */}
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 glass-card p-6 rounded-2xl border border-white/10">
         <div>
           <div className="flex items-center gap-2 text-amber-400 font-semibold text-xs uppercase tracking-wider mb-1">
             <Inbox className="w-4 h-4" /> Human-in-the-Loop Oversight
           </div>
-          <h2 className="text-xl font-bold text-white font-['Outfit']">Pending Review Queue ({queue.length})</h2>
+          <h2 className="text-xl font-bold text-white font-['Outfit']">Pending Review Queue ({totalReviewCount})</h2>
           <p className="text-xs text-slate-400 mt-0.5">
-            Tickets flagged due to confidence below threshold (&lt;0.85) or safety guardrail escalation.
+            Tickets flagged due to confidence below threshold (&lt;0.70) or safety guardrail escalation.
           </p>
         </div>
-        <button
-          onClick={loadQueue}
-          className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition-colors"
-        >
-          Refresh Queue
-        </button>
+
+        <div className="flex flex-wrap items-center gap-2">
+          {/* Recalculate Confidence Button */}
+          <button
+            onClick={handleRecalculateConfidence}
+            disabled={bulkLoading !== null}
+            title="Recalculates dynamic confidence for all tickets to replace old legacy scores"
+            className="px-3 py-2 text-xs font-semibold rounded-lg bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 transition-colors flex items-center gap-1.5 disabled:opacity-50"
+          >
+            {bulkLoading === 'recalc-conf' ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <RefreshCw className="w-3.5 h-3.5" />}
+            <span>Recalculate Confidence</span>
+          </button>
+
+          {/* Pass All Tickets Button */}
+          <button
+            onClick={handlePassAll}
+            disabled={bulkLoading !== null || queue.length === 0}
+            className="px-3 py-2 text-xs font-semibold rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 transition-colors flex items-center gap-1.5 disabled:opacity-50"
+          >
+            {bulkLoading === 'pass-all' ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <CheckCheck className="w-3.5 h-3.5" />}
+            <span>Pass / Approve All</span>
+          </button>
+
+          {/* Delete All Pending Button */}
+          <button
+            onClick={handleDeletePendingQueue}
+            disabled={bulkLoading !== null || queue.length === 0}
+            className="px-3 py-2 text-xs font-semibold rounded-lg bg-rose-600/20 hover:bg-rose-600/30 text-rose-300 border border-rose-500/30 transition-colors flex items-center gap-1.5 disabled:opacity-50"
+          >
+            {bulkLoading === 'delete-pending' ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Trash2 className="w-3.5 h-3.5" />}
+            <span>Delete All Pending</span>
+          </button>
+
+          {/* Refresh Queue Button */}
+          <button
+            onClick={loadQueue}
+            disabled={bulkLoading !== null}
+            className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition-colors disabled:opacity-50"
+          >
+            Refresh Queue
+          </button>
+        </div>
       </div>
+
 
       {/* Cards List */}
       {loading ? (
@@ -197,7 +303,7 @@ export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) 
                       <select
                         value={edit.category}
                         onChange={(e) => handleFieldChange(ticket.id, 'category', e.target.value)}
-                        className="w-full mt-1 px-3 py-1.5 bg-[#0D0F14] border border-white/10 rounded-lg text-xs text-white focus:outline-none focus:border-indigo-500"
+                        className="w-full h-9 mt-1 px-3.5 bg-[#0D0F14] border border-white/10 hover:border-white/20 rounded-lg text-xs font-medium text-white focus:outline-none focus:border-indigo-500 transition-colors"
                       >
                         <option value="Billing">Billing</option>
                         <option value="Technical">Technical</option>
@@ -215,7 +321,7 @@ export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) 
                       <select
                         value={edit.priority}
                         onChange={(e) => handleFieldChange(ticket.id, 'priority', e.target.value)}
-                        className="w-full mt-1 px-3 py-1.5 bg-[#0D0F14] border border-white/10 rounded-lg text-xs text-white focus:outline-none focus:border-indigo-500"
+                        className="w-full h-9 mt-1 px-3.5 bg-[#0D0F14] border border-white/10 hover:border-white/20 rounded-lg text-xs font-medium text-white focus:outline-none focus:border-indigo-500 transition-colors"
                       >
                         <option value="Critical">Critical</option>
                         <option value="High">High</option>
@@ -232,7 +338,7 @@ export const ReviewQueueView: React.FC<ReviewQueueViewProps> = ({ onResolved }) 
                       <select
                         value={edit.department}
                         onChange={(e) => handleFieldChange(ticket.id, 'department', e.target.value)}
-                        className="w-full mt-1 px-3 py-1.5 bg-[#0D0F14] border border-white/10 rounded-lg text-xs text-white focus:outline-none focus:border-indigo-500"
+                        className="w-full h-9 mt-1 px-3.5 bg-[#0D0F14] border border-white/10 hover:border-white/20 rounded-lg text-xs font-medium text-white focus:outline-none focus:border-indigo-500 transition-colors"
                       >
                         <option value="Finance">Finance</option>
                         <option value="Technical">Technical</option>

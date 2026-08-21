@@ -162,11 +162,13 @@ def predict_single(model, tokenizer, review: str) -> Tuple[dict, float, str]:
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
-            max_new_tokens=64,
+            max_new_tokens=80,
             do_sample=False,  # Greedy for reproducible evaluation
+            eos_token_id=tokenizer.eos_token_id,  # Stop at EOS — prevents repetition/hallucination after JSON
             pad_token_id=tokenizer.pad_token_id,
             return_dict_in_generate=True,
             output_scores=True,
+            repetition_penalty=1.15,  # Penalize repeated tokens to reduce hallucination loops
         )
 
     gen_tokens = outputs.sequences[0][inputs["input_ids"].shape[1] :]

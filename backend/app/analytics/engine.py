@@ -42,6 +42,7 @@ def get_analytics_summary(db: Session) -> Dict:
             "total_tickets": 0,
             "auto_routed_count": 0,
             "human_review_count": 0,
+            "resolved_review_count": 0,
             "auto_routing_rate": 0.0,
             "avg_confidence": 0.0,
             "critical_count": 0,
@@ -54,7 +55,18 @@ def get_analytics_summary(db: Session) -> Dict:
         }
 
     auto_routed = db.query(Ticket).filter(Ticket.routing_status == "AUTO_ROUTED").count()
-    human_review = db.query(Ticket).filter(Ticket.routing_status == "HUMAN_REVIEW").count()
+    # Only count tickets still pending human review (unresolved)
+    human_review = (
+        db.query(Ticket)
+        .filter(Ticket.routing_status == "HUMAN_REVIEW", Ticket.is_reviewed == False)
+        .count()
+    )
+    # Tickets that were in HUMAN_REVIEW and have been resolved by a reviewer
+    resolved_review = (
+        db.query(Ticket)
+        .filter((Ticket.routing_status == "RESOLVED") | (Ticket.is_reviewed == True))
+        .count()
+    )
     auto_routing_rate = round((auto_routed / total_tickets) * 100, 1)
 
     avg_conf = db.query(func.avg(Ticket.confidence)).scalar() or 0.0
@@ -98,6 +110,7 @@ def get_analytics_summary(db: Session) -> Dict:
         "total_tickets": total_tickets,
         "auto_routed_count": auto_routed,
         "human_review_count": human_review,
+        "resolved_review_count": resolved_review,
         "auto_routing_rate": auto_routing_rate,
         "avg_confidence": round(float(avg_conf), 3),
         "critical_count": priorities["Critical"],
