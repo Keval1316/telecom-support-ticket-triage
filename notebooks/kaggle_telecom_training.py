@@ -76,6 +76,33 @@ with open("reports/threshold_analysis.md", "r") as f:
 
 # --- CELL 9: Zip & Download Trained Adapter Weights to Local PC ---
 """
-!zip -r /kaggle/working/telecom_adapter.zip models/adapters/telecom-ticket-triage reports/
-print("Adapter zip created at /kaggle/working/telecom_adapter.zip")
+import os
+import base64
+from IPython.display import HTML, display
+
+# 1. Package the trained LoRA adapter, reports, and training log into a zip file
+!zip -r /kaggle/working/telecom_adapter.zip models/adapters/telecom-ticket-triage reports/ training/training_log.json
+
+# 2. Render direct in-browser download button (bypasses Kaggle 404 URL restrictions)
+zip_path = "/kaggle/working/telecom_adapter.zip"
+if os.path.exists(zip_path):
+    file_size_mb = os.path.getsize(zip_path) / (1024 * 1024)
+    print(f"Zip created successfully ({file_size_mb:.2f} MB). Rendering direct download button...")
+    with open(zip_path, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+    
+    html_btn = f'''
+    <div style="margin-top: 15px; padding: 15px; background: #1e293b; border-radius: 10px; text-align: center;">
+        <h3 style="color: #38bdf8; margin-bottom: 10px;">Training Artifacts Ready!</h3>
+        <a href="data:application/zip;base64,{b64}" download="telecom_adapter.zip" 
+           style="display: inline-block; padding: 12px 28px; background: #2563eb; color: white; 
+                  font-weight: bold; border-radius: 8px; text-decoration: none; font-size: 16px; 
+                  box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+           ⬇️ Click Here to Download telecom_adapter.zip ({file_size_mb:.2f} MB)
+        </a>
+    </div>
+    '''
+    display(HTML(html_btn))
+else:
+    print("ERROR: telecom_adapter.zip was not found. Check training logs.")
 """
