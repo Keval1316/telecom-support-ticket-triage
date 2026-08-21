@@ -1,0 +1,1149 @@
+ticket_id,review,true_category,pred_category,true_priority,pred_priority,true_department,pred_department,confidence,raw_valid,raw_output
+TCK-v1.0-00178,"I paid my latest bill through net banking on 12th Aug and Rs.1499 was deducted, but the app still shows my balance due. Please sort this out quickly, I'm worried my service will get cut off.",Billing,General,High,Medium,Finance,General Support,0.8783608117928452,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}useRalative
+魔法师和机器人{""{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}""}魔法师和机器人{""{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}""}"
+TCK-v1.0-01325,"Hello, could you please share the exact data and voice limits of the 1.5 GB plan you just launched? I’m trying to decide if it fits my usage. Thanks!",General,General,Low,Medium,General Support,General Support,0.9284118468817724,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00876,"Mere prepaid ka recharge aaj subah kiya tha, lekin paisa account me dikhai nahi de raha. Agar thoda time deke dekh lete ho to theek hai, bas jaankari chahta hu ki credit kab hoga.",Billing,Billing,Low,Low,Finance,Finance,0.8495786341431995,True,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�始化
+魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女"
+TCK-v1.0-01175,"I want to know why my 4G speed drops after 8pm, maybe network load? Also, the myapp keeps freezing when I try to view my usage, but I can still call. Not urgent, just curious.",General,General,Low,Medium,General Support,General Support,0.919467586931205,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00712,"I tried to recharge my prepaid number today but the payment got declined and still the amount is deducted from my bank. I'm left with zero balance now. Please process the refund ASAP, this is really frustrating and I need the money back urgently.",Refund,General,High,Medium,Refunds,General Support,0.9023001758946521,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}"
+TCK-v1.0-01676,"Hey, my calls keep dropping after a few minutes even when I have good signal. I tried restarting the phone and toggling network, but it still happens. Please check the line, it's getting annoying but not an emergency.",Technical,General,Medium,Medium,Technical,General Support,0.8728782175421657,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+魔法师和机器人{""{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}""}魔法师和机器人{""{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}""}"
+TCK-v1.0-00348,"I got a new phone and tried to shift my old number to the new sim, but it still looks like the old sim is active. I called support and they said it might take a few days, but I'm not sure if I need to do anything else. Please check my acount and let me know what’s up, thanks!",Account,General,Low,Medium,Account,General Support,0.932084139723429,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�始化
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01949,"Hey, my new SIM just won't register on my phone even after 5 reboots. I see 'No Service' everywhere and can't make calls, which is killing my work. Also, I noticed a random Rs.50 charge on my latest bill that I don't recognise. Please fix the network issue ASAP, it's critical!",Technical,General,Critical,Medium,Technical,General Support,0.9144019603181732,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00010,"Sir/Madam, I checked my recent bill and noticed a duplicate charge for the same data pack this month. It shows Rs.199 twice. Please look into it and adjust the bill, I need the extra amount refunded. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8468637773221417,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和女巫的对话{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的"
+TCK-v1.0-00676,"I did a rechrage of Rs.500 on 12th July through the app but my balence still shows zero. I called support and they said they'd check and get back, yet I haven't heard anything. I'm not sure if the amount was actually deducted or just stuck, but I need that money back asap because I can't even make calls. Please process the refund quickly, it's getting really frustrating.",Refund,General,High,Medium,Refunds,General Support,0.9142256108402762,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General"
+TCK-v1.0-01822,"I asked for a refund two weeks ago after my prepaid plan got cancelled, but I still haven't seen any money back. This is getting really frustrating, please process it ASAP. My account number is 123456, and I need the amount credited now.",Refund,General,High,Medium,Refunds,General Support,0.9236577525844041,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Ref"
+TCK-v1.0-00278,"Hey, my SMS is totally stuck – I can't send any messages and incoming texts aren't coming through either. I've tried toggling airplane mode, restarting the phone and even re‑inserting the SIM, but still nada. This is killing my work because I need to coordinate with my team today. Also, I noticed a small extra charge of Rs. 49 on my last bill for 'value‑added service' that I never used. Please fix the SMS issue ASAP and let me know why that charge appeared.",Technical,General,High,Medium,Technical,General Support,0.9137850392353357,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00037,"Hello, I was checking my latest bill and I think there's something off. I see a charge for data that I didn't use, and the total seems higher than usual. Could someone please look into it? I'm not sure if it's a mistake or maybe some plan change I missed. Thanks.",Billing,General,Low,Medium,Finance,General Support,0.8788599381146014,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}具有战士"
+TCK-v1.0-00561,"Sir, I recently got a new SIM and tried to transfer my old number to it, but the system still shows the ownership under my previous SIM. I called support and was told it would be fixed in 48 hrs, but nothing has changed yet. Please sort this out soon.",Account,General,Medium,Medium,Account,General Support,0.9269193497721062,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01880,"I asked for a refund on the extra charges from last month, but it's still not in my account even after two weeks. Meanwhile, my internet keeps dropping after 3 PM which is annoying. Please sort the refund fast and let me know why the service is unstable. I need the money back now.",Refund,General,High,Medium,Finance,General Support,0.9164910605572913,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-01595,"Hi, could you please tell me what recharge plans are available for my prepaid number? I want to know data and talk time options, and if there are any special offers. Thanks!",General,General,Low,Medium,General Support,General Support,0.9288779473949944,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01076,"I asked for a refund two weeks ago after my prepaid pack was cancelled, but I still haven't got any money back. Every time I call the helpline they tell me to wait, and now my bank statement shows no credit. This delay is causing me big trouble, please process it immediately!",Refund,General,Critical,Medium,Refunds,General Support,0.9064307432790883,False,"{""category"": ""Refund"", ""priority"": ""Critical"", ""department"": ""Refunds""}useRalative
+具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}具有战士
+具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-01686,"Namaste, I see my June bill is Rs.1500 which is way higher than last month. I didn’t use extra data or any international calls. Please look into it, thanks.",Billing,General,Low,Medium,Finance,General Support,0.9203310335396964,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�始化
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00972,"Hey bhai, my accout got locked after I entered wrong password a few times. I tried resetting it but the app still says it's locked. Can you please unlok it soon? I need to check my data usage.",Account,General,Medium,Medium,Account,General Support,0.9263720397348152,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+{""category"
+TCK-v1.0-00995,"Hey, my data just stopped working since this morning. I tried turning airplane mode on and off, rebooted the phone and checked the settings but still no internet. It’s not a complete outage in my area, just my SIM seems dead. Can you look into it? Thanks.",Technical,General,Low,Medium,Technical,General Support,0.9295283423980436,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00089,"Namaste, I'm trying to log into my MyJio app but it keeps saying my credentials are wrong. I even reset the password, got the OTP, yet the login screen still flashes an error. Meanwhile my latest bill still shows an unpaid amount which I think might be linked to my account being locked. Can you help unlock my account or tell me what’s going on? Thanks!",Account,General,Medium,Medium,Account,General Support,0.9228723082046599,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00355,"I recently got a new SIM from your store, but after inserting it my phone keeps showing 'No Service' and won't register on the network. I tried restarting, re-insertng, even switching to airplane mode and back, but nothing changed. Could you please look into this? It's getting annoying but I'm not sure if it's a network issue or the SIM itself.",Technical,General,Medium,Medium,Technical,General Support,0.925293571959628,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00990,"Hey, my calls keep dropping after a few minutes. It happens on both 4G and 3G. I tried restarting, but still same. Please look into it.",Technical,General,Low,Medium,Technical,General Support,0.8885296388921233,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-01082,"I just got my latest bill and it's way higher than usual—$120 instead of ~₹800. I think there's some mistake, maybe extra charges I didn't use. Please check and correct it soon, I'm really worried about paying this amount.",Billing,General,High,Medium,Finance,General Support,0.9187778074829112,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-00834,"I topped up my prepaid number on 12th and saw the amount got deducted two times. Can you please refund the extra Rs.100? Not a big emergency, just when you get a chance. Thanks!",Refund,General,Low,Medium,Refunds,General Support,0.9256718013702994,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01747,"I got my latest bill and it shows I was charged Rs.1999 for a 999 plan. I never upgraded! Also, my 4G data keeps dropping after 5GB which is annoying. Please fix the charge asap.",Billing,General,High,Medium,Finance,General Support,0.9061884075549642,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-00071,"Hey, my messages are not sending or receiving on my phone. I tried restarting and toggling airplane mode but still nothing. It's affecting my daily chats and work, please look into it soon.",Technical,General,Medium,Medium,Technical,General Support,0.8524034213924097,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+魔法师和影子的对话{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和影子的对话魔法师和影子的对话{""category"": ""General"", ""priority"": """
+TCK-v1.0-00863,I am really upset about my latest bill. It shows Rs.1999 while my plan clearly says Rs.1499 per month. This extra charge is completely wrong and I need it corrected ASAP. I have been with you guys for years and this kind of mistake is unacceptable. Please fix it now!,Billing,General,Critical,Medium,Finance,General Support,0.8918585526753304,False,"{""category"": ""Billing"", ""priority"": ""Critical"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-00651,"I got my latest bill and it's higher than usual, I think there is some mistake. I haven't used extra data and was expecting the normal amount. Could u please check it and let me know? Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8849448519549696,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-01703,"I was shocked to see I was charged for the 5G plan even tho I'm still on my 2GB postpaid. I called support, they said they'll fix it, but no update yet. Also my internet keeps dropping in evenings.",Billing,General,Medium,Medium,Finance,General Support,0.9142228456585144,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-00332,"I just checked my latest bill and saw I was charged for the premium plan even though I am still on the basic 199 plan. My app still shows the old plan, so this extra amount is wrong. Kindly fix the charge and update my bill. Thanks!",Billing,General,Medium,Medium,Finance,General Support,0.9245764562874683,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-01084,"Hello, I noticed an extra Rs.200 on my latest bill which I don't think I used. Can you please check and adjust it? It's not a big issue, just want it corrected. Thanks.",Billing,General,Low,Medium,Finance,General Support,0.8819911437490191,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-00887,"I just got my latest bill and it's way higher than usual! I didn't use any extra data or international calls, yet I'm being charged Rs. 2,500 instead of the usual Rs. 899. This is totally unacceptable. Please sort this out ASAP or I'll have to consider switching provider. I've already tried calling the helpline but got no clear answer.",Billing,General,High,Medium,Finance,General Support,0.9073216319306994,False,"{""category"": ""Billing"", ""priority"": ""Critical"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-01510,"I just checked my latest bill and it shows I was charged for 2GB extra data even though I'm on the 500MB plan. This is not what I signed up for and I need the extra amount back ASAP. Please fix this now, it's affecting my budget.",Billing,General,Critical,Medium,Refunds,General Support,0.8875109010714368,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}_:*"
+TCK-v1.0-01348,"Hey, my area (Bengaluru, Kalyani Nagar) has had no mobile data or voice service since yesterday evening. I keep getting 'Network unavailable' on my phone, and calls drop instantly. This is affecting my work, please fix ASAP!",Technical,General,Critical,Medium,Technical,General Support,0.8846127049396273,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�始化
+魔法师和女巫蟀
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}魔法师和女巫蟀看查看
+{""category"": ""Technical"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-00606,"Hi, I was checking your website and saw some promos for extra data but when I tried to apply it on the app it didn't show up. Can you tell me if these offers are still active or if there are any new ones? Thanks!",General,General,Low,Medium,General Support,General Support,0.9289507729786237,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00139,"Yaar, I cannot log into my account for the past 5 hours. Even after resetting the passwrod it still says invalid. My data pack expires tomorrow and I need to pay the bill. Please fix this ASAP, it's really urgent!",Account,General,Critical,Medium,Account,General Support,0.8660692096664206,False,"{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}�
+�
+{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}useRalative
+'gc'{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-01339,I have been trying to get info about the new data rollover plans but the website keeps timing out. I called the helpline twice and got transferred each time. Please let me know the details or send a brochure. It’s getting frustrating but not an emergency. Hope you can sort this out soon.,General,General,Medium,Medium,General Support,General Support,0.9260562122744886,False,"{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support"
+TCK-v1.0-00243,"Sir/Madam, I just checked my June invoice and it shows I have been billed for 2GB data while my plan is only 500MB. I have always paid the right amount before, so this looks like a mistake. Kindly look into it and adjust the charges. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.9235974961675311,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�始化
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01431,"I just noticed my profile info shows wrong address and email. I updated it yesterday but still shows old data. Please fix soon, I'm missing important bills. Thanks.",Account,General,Medium,Medium,Technical,General Support,0.9028443227557545,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�始化
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}具有战士
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}_:*{"""
+TCK-v1.0-01530,"I just got my latest bill and it shows extra Rs.500 for international calls I never made. Also, my broadband speed has been dropping to 2Mbps for the past week, which is annoying but not the main issue. Please fix the billing error soon.",Billing,General,Medium,Medium,Finance,General Support,0.9195797958100229,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01758,"I asked for the $150 refund for the extra data charge last week, but still nothing in my account. My internet keeps dropping after 5pm and I can't even watch TV. Please sort the refund ASAP, I’m losing patience. If you need any more details, just tell me, but don’t keep delaying!",Refund,General,High,Medium,Refunds,General Support,0.914218619748226,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General"
+TCK-v1.0-00539,"Hey, I am really fed up with my internet dropping again and again. For the past two weeks, the connection goes off for 30‑40 mins multiple times a day. I called support but they just reset the router and it works for a few hours then dies. It's not a total outage but it's messing up my work from home. Can someone look into this properly? Thanks.",Technical,General,Medium,Medium,Technical,General Support,0.9022325952041683,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-01575,"Hey, I’ve been trying to figure out why my data speed drops after 2GB even though my plan says unlimited. The app shows full bars but browsing is super slow. Can someone explain if there’s a hidden throttling or if I need to change something? Thanks.",General,General,Medium,Medium,General Support,General Support,0.9214278029176057,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-00357,"Hey, my internet has been down since yesterday in my area (Bangalore). I've tried restarting the router multiple times, but still no signal. This is affecting my work from home, please fix ASAP!",Technical,General,High,Medium,Technical,General Support,0.8999754930514428,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Medium"", ""department"":"
+TCK-v1.0-01102,"I cancelled my postpaid plan two weeks ago and was promised the refund within 5 working days. Still nothing has come through, and my bank shows no credit. Please check and process the amount soon, I need the money back. Thanks.",Refund,General,Medium,Medium,Refunds,General Support,0.8551825434760758,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗"
+TCK-v1.0-01963,"I cancelled my prepaid plan two weeks ago and was promised the refund within 5 days. Still no money in my bank, and I keep getting automated replies. Please sort this out soon.",Refund,General,Medium,Medium,Refunds,General Support,0.8563911359774465,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗"
+TCK-v1.0-01797,"Hey, I just got my latest bill and it shows extra Rs. 500 for data usage I never used. I checked my usage and it's zero. Please correct it ASAP. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8778908574795423,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""category"
+TCK-v1.0-01149,"Hello, I just got my latest bill and it's way higher than usual – I was expecting around ₹800 but it shows ₹1,350. I didn't add any extra services and I haven't changed my plan. Could you please check why this extra charge is there? I need clarification before I can pay. Thanks.",Billing,Billing,Medium,Medium,Finance,Finance,0.6725777393776298,True,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+useRalative
+My phone is not working and I can't make calls or send texts. It's been 2 days since I reported the issue. I need it fixed ASAP.㶲
+{EIFACE{""category"": ""Technical"
+TCK-v1.0-00682,"I am really upset about my latest billl. It shows Rs. 2,500 for local calls that I never made and an extra Rs. 500 for data usage that I didn't consume. I already sent my account number in an email last week but support said they need it again. Also, my 4G internet keeps dropping every hour which is annoying, but the main issue is the wrong charges. Please fix this immediately, otherwise I will have to switch provider.",Billing,General,High,Medium,Finance,General Support,0.904183400274178,False,"{""category"": ""Billing"", ""priority"": ""Critical"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01465,"I topped up Rs.500 on my prepaid number yesterday but the amount still shows as pending and I couldn't make any calls. I need the money back ASAP, otherwise I’ll be stuck without service. Also, my 4G keeps dropping even after I reset the phone. Please sort this out quickly.",Refund,General,High,Medium,Refunds,General Support,0.9074020334101078,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-TOPUP-00039,"I need to know what recharge options are available. My last top‑up didn’t reflect and I’m not sure if I can use auto‑renew. Please tell me the plans and if any refunds are applicable, thanks.",General,General,Medium,Medium,Refunds,General Support,0.8955318991474996,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}_:*"
+TCK-v1.0-00396,"Hey, I just got my new SIM last week and tried to use it on my phone but it keeps showing 'No Service'. I have tried restarting, re‑inserting the SIM and even toggling airplane mode but still nothing. Seems like the network registration is not happening. Not super urgent as I can manage with my old number for now, just hoping you could check it when you get a chance.",Technical,General,Low,Medium,Technical,General Support,0.9233460465379721,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00762,"I was shocked to see my latest bill showing ₹2,350 while I only used about 150 minutes and a few MBs of data. My usual bill is around ₹800. Please check why I'm being overcharged and fix it.",Billing,General,Medium,Medium,Finance,General Support,0.886224121486066,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-TOPUP-00003,"I tried to top-up my prepaid balance yesterday, but the amount got deducted from my bank and my account still shows zero. I need the money back now, otherwise I won't be able to make any calls. Please sort this out asap, it's been 24 hours already!",Refund,General,Critical,Medium,Finance,General Support,0.9255593464858975,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-00308,"Hey team, i did a recharge of Rs.199 on the app around 10pm yesterday. The balance still shows the old amount and I haven't gotten any SMS about the top‑up. Could you check if it's a system glitch and maybe process a refund if needed? It's not a big emergency, just want it sorted when you can.",Refund,General,Low,Medium,Refunds,General Support,0.9166907327612535,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01799,"I was shocked to see I was billed for a 1GB data plan this month even though I am on the 500MB plan. I called support but they said nothing changed. Please correct the charge ASAP, it's affecting my budget.",Billing,General,High,Medium,Finance,General Support,0.8788142381108628,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00714,"I noticed that I have been charged twice for my last month's postpaid bill. The amount is Rs. 1,999 and it appears again as Rs. 1,999 in the same invoice. I tried to call the support number but the call got dropped, and I couldn't find the option to raise a dispute online. Also, my internet speed has been a bit slow lately, but that's not the main worry. Please check the duplicate charge and refund the extra amount. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.917196654282634,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00205,"Sir/Madam, my internet connnection keeps dropping every few minutes for the past three days. I’ve restarted the router many times but still no stable signal. This is affecting my work from home and I need it fixed asap.",Technical,General,High,Medium,Technical,General Support,0.9279683183431189,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00805,"Hey team, could you please tell me what recharge plans are currently available? I want to know the data packs and their validity. Also, is there any discount for topping up via your app? Thanks.",General,General,Low,Medium,General Support,General Support,0.9173209316695647,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01167,"Hey, my network signal is constantly dropping after the last router upgrade. I keep getting only one bar even in my house, and calls cut off. Please fix it soon, thanks.",Technical,General,Medium,Medium,Technical,General Support,0.9012906067232507,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"":"
+TCK-v1.0-01184,"Sir, I tried logging into my account portal today but it just keeps loading forever, even after clearing cache. Meanwhile my internet speed is still at 2Mbps, which is far below the 10Mbps I pay for. I need the portal to pay my bill, but I'm stuck. Please fix the login issue soon. Thanks.",Account,General,Medium,Medium,Account,General Support,0.9151848305846215,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+{""category"
+TCK-v1.0-01986,"Hi, I was trying to understand the new data+talk plan you advertised, but the website keeps showing mixed info. Can you please tell me what's included and the exact price? It's not urgent, just need clarity before I switch.",General,General,Low,Medium,General Support,General Support,0.9266464517818349,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01134,"Hi, can you tell me what recharge packs are available for my plan? I want to know if there are any combo offers or data add‑ons. Please send details. Thanks.",General,General,Low,Medium,General Support,General Support,0.9295927825610306,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00340,"Sir, my mobile data is not workin since yesterday evening. I restarted the phone, toggled airplane mode and even reset network settings but still no internet. I need it for my job, please fix it ASAP!",Technical,General,High,Medium,Technical,General Support,0.8586469621095603,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-00996,"I got charged twice for last month's data pack, amount shows ₹499 twice. I called support, they said they'll look into it but I haven't heard back. Also my internet speed has been fluctuating a lot these days, sometimes drops to 1Mbps. Please fix the billing and let me know what’s up with the speed. Thanks",Billing,General,Medium,Medium,Finance,General Support,0.9098939469204197,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01724,"Hey, my broadband has been crawling for the past week. Even simple web pages take ages to load and streaming buffers every few minutes. I’ve rebooted the router multiple times but nothing changes. Please check the line or send a tech, I need decent speed for work.",Technical,General,Medium,Medium,Technical,General Support,0.9237533824457387,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00955,"Hey, I'm trying to send SMS to my friends but some messages just don't go through and sometimes I don't get replies. It's not happening all the time, just occasional. I also noticed a few incoming texts missing. Can you check if there's any issue with my network? Thanks.",Technical,General,Low,Medium,Technical,General Support,0.9247501373556588,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-TOPUP-00047,"Hey guys, I was checking my plan details on your app and couldn't find the info about data rollover. Also, I noticed a tiny charge of Rs. 5 on my last bill that I don't understand. Could you please clarify? Not urgent, just need some info.",General,General,Low,Medium,Finance,General Support,0.9271945150353531,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-01707,"I just got my March bill and there’s an extra Rs.500 charge I never made. Also, my internet has been lagging since last week, but I think it’s just my router. Please check the bill and adjust it. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.9187630750766402,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01403,"Sir/Madam, I was wondering if the new data add‑on works on both 4G and 5G phones? Also, I noticed my SMS inbox shows one message as 'failed' from last week. Not a big deal, just curious. Please let me know.",General,General,Low,Medium,General Support,General Support,0.9287305286125047,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�始化
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-00461,"Hey, I was trying to see what recharge plans are available for my postpaid line, but the app keeps showing the same old offers. Can someone tell me if there are any new packs or if I can top‑up online? Not urgent, just want to know my options.",General,General,Low,Medium,General Support,General Support,0.926960366201456,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�始化
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00084,"Hey, my calls keep dropping every few minutes. I was on a call with my sister and it cut off mid‑sentence. It happens on both 4G and 3G. I even tried restarting the phone and switching SIM slots but nothing works. Could you please check it? It’s getting quite annoying.",Technical,General,Medium,Medium,Technical,General Support,0.9162201047693088,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01771,"Hey, I'm trying to send sms to my friend but they never get it, and sometimes I cant receve any messages either. I checked my phone, signal looks fine. Not sure if it's a network glitch or something with my account. Please check.",Technical,General,Low,Medium,Technical,General Support,0.9200690213210692,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01877,"Hey, I got a new SIM last week but my old number still shows up on the app and calls are still routed there. I tried transferring ownership twice, but the system says it's pending forever. This is affecting my work, need it fixed ASAP.",Account,General,High,Medium,Account,General Support,0.8832172486386298,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+魔法师和机器人{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人"
+TCK-v1.0-01380,"Sir, my 4G data has been dropping for the past two days. Even after restarting, toggling airplane mode and reinstalling the SIM, I still get 'No internet' on any app. I need it for work, so please fix ASAP.",Technical,General,High,Medium,Technical,General Support,0.9280101201811704,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01108,"My phone shows 0 bars in most parts of the city, even near my office, and calls drop after 2 minutes. Also, I still haven't received the welcome SMS after switching plan, which is annoying. Please fix the signel asap.",Technical,General,High,Medium,Technical,General Support,0.8740110534408814,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+魔法师和仙子{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和仙子魔法师和仙子魔法师和仙子魔法师和仙子魔法师和仙子魔法师和仙子魔法师和仙子魔法师和"
+TCK-v1.0-00223,"Hey, I was checking the new data plan you guys advertised on the app and I couldn't find the exact monthly data limit for the 299 rupees pack. Also, my SMS balance hasn't updated after I topped up last night, though I think that's a separate thing. Can you please clarify the plan details and maybe look into the SMS issue? Thanks.",General,General,Low,Medium,General Support,General Support,0.9232176659652396,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00336,"I got charged double for my last month bill, both Rs. 499 and Rs. 499 again. I checked the app and it shows two separate invoices for same period. Please fix this asap, I'm really upset.",Billing,General,High,Medium,Finance,General Support,0.8818211769166737,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00272,"I cancelled my postpaid plan two weeks ago and was told the refund would be processed within 5 working days. Still no money has come into my account and I keep getting calls from the collection department. I'm really upset and need this sorted asap, this delay is hurting my finances.",Refund,General,Critical,Medium,Refunds,General Support,0.914989858509216,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General"
+TCK-v1.0-01281,"My calls keep droppng after a few seconds, sometimes I get no network at all. I even checked my balance and restarted the phone, but the issue stays. Please fix ASAP, it's affecting my work.",Technical,General,High,Medium,Technical,General Support,0.861435718773464,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-00979,"Sir, my 4G data suddenly stopped working since this morning. I tried restarting the phone, toggling airplane mode, even re‑inserting the SIM, but still no internet. I'm stuck with no data for work, plz fix this ASAP!",Technical,General,Critical,Medium,Technical,General Support,0.9275599472039175,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00061,"Sir/Madam, I have a small query about the new combo packs. I saw some ads saying unlimited calls, but I'm not clear if that includes STD numbers. Could you pls clarify? Thanks!",General,General,Low,Medium,General Support,General Support,0.8811286733316592,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+useRalative
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+'gc'{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-00469,"Hey team, I did a rechrage of Rs.500 on 5th Aug through your app but the balance still shows zero. The amount got dedcuted from my bank, yet I can't make calls. I tried contacting support earlier and was told it'll be fixed, but nothing changed. Can you please process a refund for this failed recharge? I'd appreciate a quick look, but I understand these things take time.",Refund,General,Medium,Medium,Refunds,General Support,0.8873953586557946,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和{""{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-00131,"Sir/Madam, my internet speed has been dragging for the past few days, sometimes it barely reaches 2Mbps even though I'm on a 100Mbps plan. I tried rebooting the router multiple times and even checked the cables but nothing changed. It's affecting my work from home and kids' online classes, so I need this fixed soon. Please look into it and get back to me ASAP.",Technical,General,High,Medium,Technical,General Support,0.9259325072471256,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00498,"Hey, I’ve been trying to send txt messages for the past couple of days and half of them just don’t go out. Sometimes my friend says they never got my sms, and when I check my outbox it looks sent. I also can’t receive any new msgs on my phone – they just stay pending. I’m not sure if it’s a network thing or my SIM, but it’s getting annoying. Could you please look into this?",Technical,General,Medium,Medium,Technical,General Support,0.9275928644988198,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�始化
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01649,I saw Rs. 499 got deducted from my bank this morning but my latest bill still shows zero usage and no payment. Can you please check why the amount isn’t showing on my account? I need it sorted soon.,Billing,General,Medium,Medium,Finance,General Support,0.8884311643205365,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}_:*{""{""category"
+TCK-v1.0-00927,"I raised a refund request for the extra Rs.500 that was charged on my June bill about ten days ago, but I still haven't seen any credit. Meanwhile, the MyTele app keeps crashing whenever I try to view my usage stats, which is quite annoying. Please sort out the refund and let me know if there's a fix for the app issue.",Refund,General,Medium,Medium,Refunds,General Support,0.9144714557037332,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�始化
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-00387,"Namaste, I was looking at my recent bill and it seems the same data pakage has been charged twice. I'm not 100% sure if I accidentally re‑subscribed or if there's a system hiccup, but could you please have a look and fix it? Not a big emergency, just want the numbers to match.",Billing,General,Low,Medium,Finance,General Support,0.9216894383753242,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-01892,"I topped up my mobile yesterday using my debit card, but the amount still shows as pending and my balance didn't increase. I tried contacting support but got no response. Please look into this and process the refund or credit my account soon. It's affecting my ability to use data.",Billing,General,Medium,Medium,Refunds,General Support,0.9219266518334734,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-00615,"Hey, my network signal in my area (Gurgaon sector 14) has been really weak for the past week, calls drop after a few seconds and data speed is crawling. I tried restarting the router and even re‑installed the app but nothing changes. Also, I noticed my latest bill shows an extra Rs. 199 charge that I don’t remember any service for – could you check that too? Please look into the signal issue soon, it's affecting my work from home.",Technical,General,Medium,Medium,Technical,General Support,0.9292252739451214,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01705,"Hey team, my latest bill shows a duplicate charge of Rs.500. Please check and credit the extra amount back. Not urgent, just want it cleared. Thanks!",Billing,General,Low,Medium,Finance,General Support,0.8635122166560905,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Refunds""}�始化
+useRalative
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Refunds""}useRalative
+'gc'{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support"
+TCK-v1.0-01126,"Hey, I just got my latest bill and something feels off. My plan says 299 per month but I’m being charged extra for data I never used. I checked the app and it still shows the same plan. Could you please look into this? Not urgent, but I'd like it cleared soon.",Billing,General,Medium,Medium,Finance,General Support,0.8935916363966498,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-01378,I have been trying to understand why my data pack expires at midnight even though I bought a 24‑hour plan. Can someone explain the policy? It's confusing and I need clarity soon.,General,General,Medium,Medium,General Support,General Support,0.9094643857542906,False,"{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}具有战士"
+TCK-v1.0-00587,"I did a recharge of Rs.500 on my mobile today but the money was taken from my account and my talktime still shows 0. I tried the USSD code and even checked the app, nothing changed. I called the helpline and they just said to wait, but it's already been 3 hours. Can someone look into this and credit my balance? Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.9221897722700305,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00062,"Sir/Madam, I have been trying to login to my account on your portal for the last two days but it keeps saying ‘invalid credentials’. I even tried the ‘forgot password’ link, but the reset email never arrives. It’s getting frustrating because I need to check my latest bill. Please help me sort this out soon.",Account,General,Medium,Medium,Account,General Support,0.9257630341007825,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�始化
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01326,I cancelled my postpaid plan last week and was told I'd get the refund in 3-5 business days. It's been 10 days now and still no money in my account. Please check and release the amount ASAP. This delay is really inconvenient.,Refund,General,Medium,Medium,Refunds,General Support,0.9111734418183914,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General"
+TCK-v1.0-01843,"Hi, I've been seeing multiple promos on the website and in the SMS, and I'm a bit confused which one I can actually use on my current plan. Can you please tell me if the new unlimited data offer is applicable to me? No hurry.",General,General,Low,Low,General Support,General Support,0.9517239157994482,True,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-00614,"Hello bhai, I recently got a new phone and tried to transfer my old number to the new SIM. The app shows the transfer is pending for a few days and I haven't got any update. I think my old sim might still be linked to my account. Could you please check and help me sort it out when you can? Not really urgent, just want it fixed sometime.",Account,General,Low,Medium,Account,General Support,0.9267643068815232,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+{""category"
+TCK-v1.0-01107,"I recharged my number 9876543210 with Rs.500 yesterday, but the balance still shows zero. I need the money back ASAP, this is affecting my work calls. Please process the refund immediately!",Refund,General,High,Medium,Refunds,General Support,0.8794803974237766,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+useRalative
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+�
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}"
+TCK-v1.0-01181,"Hey, I'm trying to log into my mydigi account but it keeps saying invalid password even after I reset it. I also get a weird error code 502. Can you help? I need to check my latest bill.",Account,General,Medium,Medium,Technical,General Support,0.8880434971961222,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}"
+TCK-v1.0-01017,"Sir, my 4G keeps dropping every few minutes for the past week. I tried restarting, resetting network, even switching SIMs but still no stable connection. It's affecting my work and family calls. Please fix this ASAP, I'm really fed up. If not resolved soon, I may have to switch provider.",Technical,General,High,Medium,Technical,General Support,0.9187965265305138,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01539,"Hey, I've been getting dropped calls on my 4G network for the past week. It happens mostly in the evenings, but sometimes even during day. Not a huge problem, just a bit annoying. Could you check if something's wrong?",Technical,General,Low,Medium,Technical,General Support,0.8871329862677158,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+魔法师和{""{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""} BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP BCHP"
+TCK-v1.0-01899,"My account got locked after I entered the wrong OTP three times today. I tried resetting it but the app just keeps saying 'account blocked' and won't let me change the PIN. Also, I haven't received my latest data usage statement, so I can't verify if I'm being overcharged. Please unlock my account ASAP!",Account,General,High,Medium,Account,General Support,0.9020861449084805,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01268,"Sir, my 4G data has been down since yesterday evening. I tried restarting, toggling airplane mode, even reinserted SIM, but still no internet. I'm stuck, need urgent fix as I have work calls. Please sort this ASAP!",Technical,General,Critical,Medium,Technical,General Support,0.9270056872023815,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01792,I keep losing network signal on my 4G data every evening. It drops for hours and I have to restart my phone to get it back. This has been happening for the past week and it's getting really annoying. Please fix it soon.,Technical,General,Medium,Medium,Technical,General Support,0.8617958475588239,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-01836,"I tried to recharge my prepaid number yesterday, but the amount got deducted from my bank and the recharge never went through. My balance still shows zero and I can't make calls. This is really frustrating; I need the money back ASAP. Please sort this out quickly, otherwise I’ll have to switch provider.",Refund,General,Critical,Medium,Refunds,General Support,0.9119112194789523,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-00645,"I have been facing some call dropping issue on my mobile. Sometimes when I'm on a simple conversation the call just cuts off after a few minutes. I tried restarting the phone and even switched SIMs, but the problem still shows up. Not a big emergency but it's getting a bit annoying especially when I need to talk to my family. Hope someone can check the network in my area.",Technical,General,Low,Medium,Technical,General Support,0.9267296594071013,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00418,"Bhai, I tried to recharge my prepaid number this morning and the amount was deducted from my bank, but my balance is still zero. This is really annoying, please sort it out ASAP!",Billing,General,High,Medium,Finance,General Support,0.8867907000540072,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00039,"Hello, I was checking my latest bill and saw an extra Rs.200 charge that I don't recall any service for. Could you please have a look and clear it up? Thanks!",Billing,General,Low,Medium,Finance,General Support,0.7862232999868866,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+useRalative
+I'm having some technical issues with my internet connection. It keeps disconnecting randomly. Can you help?㶲
+'gc{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}"
+TCK-v1.0-00910,"I was checking my recent bill and noticed an extra Rs.200 charge listed as a service fee that I never signed up for. Could be a mistake, please verify and let me know. Thanks",Billing,General,Low,Medium,Finance,General Support,0.8924942774096962,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�始化
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-01934,"I tried to top up my prepaid number yesterday and the payment got declined, but the amount is still showing as deducted from my bank. I need the money back ASAP, this is really annoying. Please process the refund quickly!",Refund,General,High,Medium,Refunds,General Support,0.9022624968456512,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}"
+TCK-v1.0-00420,"Hey, I have been trying to use mobile data on my phone since morning but it just shows ‘No internet’ even though I have enough balence. I even restarted my device and toggled airplane mode, nothing changed. Could it be a network issue? Please check.",Technical,General,Medium,Medium,Technical,General Support,0.9282097603577313,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01452,"Hello, I recently moved to a new apartment and need to change my address in your records. I tried updating it via the app but it keeps showing the old one. Please help me fix it when you get a chance. Thanks.",Account,General,Low,Medium,Account,General Support,0.8838102168588193,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�始化
+魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01757,"I keep checking your website for new data packs but the offers page keeps loading forever, and when I finally see something, the promo code shown is not working. Also, my SMS balance shows negative even though I topped up yesterday. Please fix the offers page ASAP, it's affecting my decision to stay.",General,General,High,Medium,General Support,General Support,0.9174223201475797,False,"{""category"": ""General"", ""priority"": ""High"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""High"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""High"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00288,"Hey team, my broadband has been dropping every 5‑10 minutes for the past week. I’ve tried restarting the router, resetting the modem and even changed the Wi‑Fi password, but the connection still keeps cutting out. It’s seriously affecting my work from home and I can’t attend meetings properly. Please look into this urgently, this is getting unbearable.",Technical,General,Critical,Medium,Technical,General Support,0.9054194242407902,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01569,"Hi, I need to change my address and email in my account as I just moved to new flat, but the app keeps showing my old details. While I'm at it, I also noticed my data usage stats are not updating correctly. Please help fix the registration info and look into the data bug. Thanks",Account,General,Medium,Medium,Technical,General Support,0.9193587705935897,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01528,"My internet has been crawling at 0.5Mbps for the past 2 days, video calls drop every 5 mins and streaming buffers forever. I tried restarting router but nothing. Also my new SIM activation email never came, can you check? This is affecting my work from home, need fix ASAP",Technical,General,Critical,Medium,Technical,General Support,0.9045187929432359,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-01988,"Hey, I recently got a new phone and tried moving my old SIM to it, but the system says the SIM is still linked to my previous device. Could you please help me transfer it? No rush, just need it sorted when convenient.",Account,General,Low,Medium,Account,General Support,0.8805873299543236,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}""}魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}""}"
+TCK-v1.0-00928,"I have been trying to log into my MyJio account for the past 3 hours but it just keeps saying 'Invalid credentials' even though I'm sure the password is right. I even tried resetting it but the OTP never arrives on my phone. Meanwhile my broadband bill for this month is still pending and I can't check it because I can't log in. Please fix this ASAP, it's affecting my work!",Account,General,Critical,Medium,Account,General Support,0.9050464639094571,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-00936,"Hello, I was trying to check the details of the new data plan you advertised on the app, but the link just keeps loading forever. Also, I noticed a small extra charge of ₹19 on my last bill that I don't understand. Could you please send me the full plan benefits and clarify that charge? Thanks.",General,General,Low,Medium,General Support,General Support,0.9185217299263968,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00184,"Bhai, I was double charged on my bill and asked for a payment reversal on 3rd March, but the amount is still not back in my account. Please check and credit it soon, thanks!",Refund,General,Medium,Medium,Refunds,General Support,0.9136594654437431,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�始化
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}"
+TCK-v1.0-00140,"Hey, my SMS's are just not going out or coming in at all since this morning. I tried restarting my phone, checking network, but still nothing. This is affecting my work as I need to send OTPs. Please fix ASAP!",Technical,General,High,Medium,Technical,General Support,0.8996805962037797,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-00012,"Hey team, my broadband has been crawling for the past 3 days – speed drops to about 0.5Mbps even though I pay for a 50Mbps plan. Streaming videos keep buffering and video calls keep dropping. I already tried rebooting the router but nothing changed. Please check and fix this soon, thanks!",Technical,General,Medium,Medium,Technical,General Support,0.9145985048157854,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-01018,"Hey, I noticed my latest bill has some extra Rs. 150 that I don't remember using. Maybe it's a mistake? Please check when you get a chance. Thanks.",Billing,General,Low,Medium,Finance,General Support,0.8900218753901754,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+魔法师和机器人{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人"
+TCK-v1.0-00175,"I tried to recharge my prepaid number this morning but the amount got deducted from my bank and still my balance shows zero. I called the helpline and they said they will look into it, but it's been 3 hours and I still can't make calls. This is really frustrating because I need to talk to my family urgently. Please fix this asap, I'm out of credit and the money is gone!",Billing,General,Critical,Medium,Finance,General Support,0.8984067314763706,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�"
+TCK-v1.0-01346,"Hello, I have been facing network issues for the past few days. My phone shows 'no service' even when I am at home and sometimes at work. I tried restarting and checking SIM, but nothing changed. Could you please look into it? It's getting frustrating.",Technical,Technical,Medium,Medium,Technical,Technical,0.8984105035428911,True,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的"
+TCK-v1.0-01888,"I tried updating my address in the portal but it still shows the old one, and my bills are now going to the wrong house. I need this fixed right away otherwise I might miss payments. Please sort this ASAP, I'm really stuck.",Account,General,Critical,Medium,Technical,General Support,0.8852315040057874,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01240,"Hey, my data stopped working since yesterday. I tried toggling airplane mode, restarting the phone and even re‑inserting the SIM, but still shows 'no internet'. Could be a network issue or my plan? Please check and fix it soon.",Technical,General,Medium,Medium,Technical,General Support,0.8973383606685275,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-00443,"I just tried to change the ownership of my SIM to my sister but the portal keeps throwing an error and says my ID is not verified. I need this sorted ASAP because she is travelling tomorrow and won't be able to use the phone. Also, I noticed my internet speed has been a bit slower these days, but that's not the main problem. Please help!",Account,General,High,Medium,Account,General Support,0.9116257569558002,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01430,"Hey, my 4G keeps dropping in my colony near the market. Sometimes I get signal, other times it's dead. Not an emergency, but would be nice if you could look into it.",Technical,General,Low,Medium,Technical,General Support,0.8916227131735468,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}useRalative
+魔法师和精灵{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和精灵魔法师和"
+TCK-v1.0-00380,"I requested a refund two weeks back after cancelling my prepaid pack, but the amount is still not showing up in my account. Can you please look into it and process it soon? It's getting quite annoying.",Refund,General,Medium,Medium,Refunds,General Support,0.8768235867046315,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01992,"I was shocked to see Rs. 2,349 on my latest bill when I only used 150 MB data. Also, my 4G keeps dropping after 10 PM, which is annoying. Please explain the extra charge and fix the network issue ASAP.",Billing,General,High,Medium,Finance,General Support,0.9118679755270023,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-01578,"Hey, my calls keep dropping every few minutes. I was on a important work call yesterday and it cut off mid‑sentence, again today while trying to book tickets. I’ve reset the router and tried different numbers, still same issue. Please fix ASAP, this is affecting my job.",Technical,General,High,Medium,Technical,General Support,0.9184479463456228,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00219,"Hey, I'm facing very weak signal on my 4G network in my area, especially after the recent tower upgrade. Calls drop mid‑conversation and the internet speed is crawling. Also, I tried to update my SIM settings via the app but it kept crashing, so I couldn't even check if there's a network fix. Could you look into it? Thanks.",Technical,General,Medium,Medium,Technical,General Support,0.9037158568626182,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-00276,"Hello, I was trying to see what recharge plans are available for my number. The app shows some options but it's not clear which one suits my usage. Also the website is a bit slow and sometimes shows old offers. Can someone guide me on the best recharge options for 2GB data and unlimited calls? Thanks",General,General,Low,Medium,General Support,General Support,0.9249449842536706,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01736,"I tried logging in to my mytel account but after a few wrong passwords it got locked. I reset the password but still cant access. I need my numbers active for work tomorrow, please bhai unlock it fast, I'm stuck.",Account,General,High,Medium,Account,General Support,0.9179450750921205,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00582,"I have been trying to shift my SIM ownership to my new number for the last three days, but the portal still shows the old name and my line is completely dead. This is affecting my work and I cannot afford any more downtime – please sort this out immediately!",Account,General,Critical,Medium,Account,General Support,0.9118131179338889,False,"{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}�始化
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01382,"I topped up Rs.500 on 12th June but the amount is still missing from my balance, and I was promised a reversal that never came. Also, my 4G keeps dropping after I switch to 3G mode, which is annoying. Please sort the refund fast, I need the money now.",Refund,General,High,Medium,Refunds,General Support,0.8836972941367094,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-TOPUP-00036,"Hello, I noticed the money I returned last week for the mistaken top‑up is still showing as pending on my bank statement. I understand these things take time, but could you please check if the reversal has been processed on your side? Thanks in advance for the clarification.",Refund,General,Low,Medium,Finance,General Support,0.8524269633917356,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+魔法师和女巫的对话{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的对话魔法师和女巫的对话{""category"": ""General"", ""priority"
+TCK-v1.0-00386,"Hey team, I raised a refund request for the extra Rs. 799 I was charged last month on 12th July but till now I see nothing in my bank. It's been over two weeks and I'm still waiting. I understand things take time, but I need the money back soon as my salary is already deducted. Please check and process it asap, otherwise I might have to consider switching. Thanks",Refund,General,High,Medium,Refunds,General Support,0.8719799158388923,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+魔法师和{""{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""} BCHP魔法师和{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-00225,"I got a new sim last week and still cant get any netwrok. My phone keeps showing 'No Service' even after I rebooted and re‑inserted the sim. Called the helpline and they said everything is fine on their side, but I'm still stuck and can't even use WhatsApp for work. Please sort this out quickly!",Technical,General,High,Medium,Technical,General Support,0.9325408886743389,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00588,"I am facing very slow internet speed these days, like 2-3 Mbps only. Even simple browsing takes ages. I have already rebooted my router and checked the plan, everything looks ok on the bill. Please look into it asap.",Technical,General,Medium,Medium,Technical,General Support,0.8694842798049649,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+魔法师和机器人{""{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""} BCHP
+{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-01739,"I asked for a refund on my last bill two weeks ago, and I'm still seeing no credit. The support team said it'll be processed soon, but nothing changed yet. Can someone please check? I'm getting a bit worried but not super angry.",Refund,General,Medium,Medium,Refunds,General Support,0.9129630938014088,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}具有战士
+{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Ref"
+TCK-v1.0-TOPUP-00007,"Hi, I was checking the app and saw some great data offers last month but now they’re gone. Can you tell me if any similar promos are coming soon? No rush, just want to plan my usage.",General,General,Low,Medium,Account,General Support,0.9341143580732023,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-01262,"Hi, can you tell me what recharge plans are available for my number? I need a small talk time pack and some data, but not in a hurry. Just let me know the options, thanks!",General,General,Low,Medium,Refunds,General Support,0.9307742587780012,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00302,"I cancelled my broadband plan about a week ago and was told the refund would be done in 5 working days. It's now 10 days and still nothing has come through. Please check the status and process the refund soon, this delay is really inconvenient.",Refund,General,Medium,Medium,Refunds,General Support,0.9192017374043644,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-TOPUP-00068,"Hello, I noticed the refund for my last month’s prepaid top‑up still hasn't come through. I raised a request a week ago and the amount is still stuck in my account. Please check when it will be credited. Not a huge rush, just wanted to know the status.",Refund,General,Low,Medium,Finance,General Support,0.938735236784396,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}具有战士
+{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Ref"
+TCK-v1.0-01802,"Sir, my internet keeps dropping every few minutes for the past week. I have rebooted router many times but still same. It's annoying but I can manage for now. Please look into it when you get chance.",Technical,General,Low,Medium,Technical,General Support,0.8624082869760059,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}useRalative
+魔法师和女巫的对话{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话"
+TCK-v1.0-00730,"I got my latest bill and it looks like I've been charged twice for the same month. Not sure if it's a system glitch or something on my end, but I definitely didn't use extra services. Could you please check and fix the duplicate charge? Thanks!",Billing,General,Medium,Medium,Finance,General Support,0.8897422091267799,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�始化
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-TOPUP-00006,"Hi, I was checking the latest offers on my app and saw some confusing details. Can you tell me if the data add‑on promo is still active for existing postpaid users? I’m not in a rush, just need clarification.",General,General,Low,Medium,Finance,General Support,0.9284671557193178,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-01138,"I just got my March bill and it's way higher than usual, shows Rs. 3,500 even though I only used 150 mins. I think there's a mistake, maybe some extra data charges I never used. Also, my broadband connection has been dropping intermittently for a week, but I’m not sure if it’s related. Please check the bill and let me know.",Billing,General,Medium,Medium,Finance,General Support,0.9048726545852332,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�"
+TCK-v1.0-01763,"My internet has been crawling for the last 3 days, video calls drop and buffering is constant. I also noticed the last bill shows an extra Rs. 200 for a service I never used, but I'm not sure if that's related. Please check the line and fix the speed.",Technical,General,Medium,Medium,Technical,General Support,0.9250035070449485,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�始化
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01536,I did a recharge of Rs.500 today but the amount got deducted twice and still my balance shows zero. I asked the app to refund but it's stuck. Please sort it out soon. Not sure if it's my fault or system glitch.,Refund,General,Medium,Medium,Refunds,General Support,0.906645305202801,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}"
+TCK-v1.0-01365,"Hey, I just noticed my latest bill shows I'm paying for 2GB data while my plan is only 500MB. Not sure why I'm being charged extra, maybe a mistake? Could you please check and correct it? No rush, just want it sorted when convenient. Thanks!",Billing,General,Low,Medium,Refunds,General Support,0.8836393447490991,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00126,"Hi, I asked for a refund on my last bill (₹1299) two weeks ago and still haven’t seen any credit. I called support a few times and they said it’s being processed, but there’s no update yet. Can you plz check? It’s getting a bit annoying.",Refund,General,Medium,Medium,Refunds,General Support,0.9260732117486441,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-00438,"Hey team, I topped up Rs.500 on my prepaid number yesterday but the amount never reflected and I'm still stuck with zero balance. I already raised a ticket but no reply yet. Also, the network in my colony has been dropping calls for the past week, which is super annoying. Please process the refund ASAP, I need the money for my son's school fees. Thanks",Refund,General,High,Medium,Refunds,General Support,0.8623454038456657,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+'gc'{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}'gc
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc"
+TCK-v1.0-00708,"Sir/Madam, my calls are dropping every few minutes even when I have full signal strength. It’s ruining my work calls and I’m losing important client conversations. Please fix this ASAP, I can’t tolerate any more interruptions!",Technical,General,Critical,Medium,Technical,General Support,0.9150611996060434,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01271,"I got a new SIM and was told I could shift my old number to it, but today the old SIM got blocked and I cant even call my clients. This is hurting my work, please sort it out immediately, I need the transfer done or my number restored ASAP!",Account,General,Critical,Medium,Account,General Support,0.8855563095576144,False,"{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-00727,"Hey, I tried logging into my my account today but it says password incorrect even though I just reset it. I also noticed a small extra charge of Rs. 49 on my last bill, not sure if related. Could you please help me sort the login issue? Thanks.",Account,General,Low,Medium,Account,General Support,0.8838218919795509,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}""}魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}""}"
+TCK-v1.0-01085,"Hi, I’m trying to figure out the best recharge plan for my data needs, but the app keeps showing mixed info. Some packs say unlimited data, others say limited. Can someone clarify which options are actually available and if there’s any hidden charges? I need to top‑up soon, but I’m not sure which to pick.",General,General,Medium,Medium,General Support,General Support,0.9491823360249327,True,"{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}�
+'gc{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-TOPUP-00021,"Sir/Madam, I want to know what recharge plans are available for my prepaid number. Also, I tried topping up yesterday but didn't get the SMS confirmation, though the balance shows updated. Can you guide me? Thanks.",General,General,Low,Medium,Account,General Support,0.9329986568209279,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-00646,"I checked my latest bill and it's way higher than usual, I think there might be some extra charges I never used. Could you please look into it? I didn't change my plan and I haven't made any international calls, so not sure if it's a mistake or some hidden fee.",Billing,General,Medium,Medium,Finance,General Support,0.8907439568588416,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-TOPUP-00002,"Hey, I was checking the website for the new data plans and couldn't find clear info about the validity and rollover. Can someone explain it in simple terms? It's a bit confusing.",General,General,Low,Medium,Account,General Support,0.9203269973900206,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00518,"Hello, I saw that Rs.500 got deducted from my bank for the monthly pak but the app still says my balance is zero and the pak isn't active. Maybe it's just a delay, but could you please check? Thanks.",Billing,General,Low,Medium,Finance,General Support,0.8817201943988948,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-01905,"Hey, I applied for a refund on my last bill about two weeks ago. The app says it's still processing. I know these things take time, but just wanted to check if there's anything I need to do. Thanks.",Refund,General,Low,Medium,Refunds,General Support,0.9313292441447629,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01542,"Hello, I just got my latest bill and I see extra Rs. 500 charged for international calls I never made. Please check and correct it ASAP. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8777860831114594,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""category"
+TCK-v1.0-01659,"I tried to recharge my number yesterday but the amount got deducted from my bank and I still got a 'payment failed' message. Still no recharge on my phone. Can you please check? Not super urgent, just want it fixed when you can.",Billing,General,Low,Medium,Finance,General Support,0.9222674721168005,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00814,"Sir, my broadband keeps cutting off randomly for a few minutes and then comes back, and yesterday I even saw a weird extra charge on my bill which I think might be related. I’m not sure if it’s a line issue or something else, but it’s affecting my work and I need it fixed asap.",Technical,General,High,Medium,Technical,General Support,0.9251380406622047,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00958,"I have been trying to change my address and email on my account for the past few days, but every time I log in the details revert back. This is affecting my billing and I cannot receive the new SIM delivery. I need this fixed ASAP, otherwise I might lose my connection. Please sort this out immediately!",Account,General,Critical,Medium,Account,General Support,0.910727021150251,False,"{""category"": ""Account"", ""priority"": ""Critical"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00182,"I was checking my latest bill and saw that I was charged for the 1GB data add‑on even though I never opted for it. I usually stick to the 500MB plan and my usage shows no extra data. Please look into this, it's confusing but not urgent. I would appreciate if the extra amount can be adjusted.",Billing,General,Medium,Medium,Finance,General Support,0.9152486899074574,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-TOPUP-00010,"I tried to recharge my prepaid number this morning, but the amount got deducted from my bank and the balance still shows zero. I’ve been trying for 2 hours, and my phone has no service. Please sort this out ASAP, I need the money back now!",Billing,General,Critical,Medium,Refunds,General Support,0.8915010462055761,False,"{""category"": ""Refund"", ""priority"": ""Critical"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-00323,"Hello, I tried to change my address and email in the MyAccount portal but it keeps showing old details. I called the helpline and they said it will be updated in 24 hrs, but it's already been 3 days and nothing changed. Please help me get my correct info updated, otherwise I might miss important bills. Thanks",Account,General,Medium,Medium,Account,General Support,0.8715246720648793,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�始化
+useRalative
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+'gc'{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-TOPUP-00014,"I have a question about the recent promotional offer. I saw a bundle that includes data and unlimited calls, but the website says it's only for prepaid customers. Can you clarify if I can get it on my postpaid plan? I need to know before I renew my contract. Thanks",General,General,Medium,Medium,Finance,General Support,0.9210776935792637,False,"{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01506,I have been trying to log in my account for the past 3 hours but it keeps saying 'invalid credentials' even though I'm sure I'm using the right password. I need to check my data usage and pay my bill today. Plz fix this ASAP!,Account,General,High,Medium,Account,General Support,0.9245927055535503,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01889,"Hey, my broadband has been crawling at 0.5 Mbps for the past three days. Streaming videos buffers every few seconds and work calls drop constantly. I need this fixed ASAP, it's affecting my job. Please send a tech ASAP!",Technical,General,High,Medium,Technical,General Support,0.9059545927134423,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士"
+TCK-v1.0-00510,"I had asked you guys to reverse the extra payment I made on my last bill, but till now I haven't seen any money back. It's not a big emergency, just want it sorted when you can. By the way, I also stopped getting those data‑usage SMS alerts last week, which is a bit annoying.",Refund,General,Low,Medium,Refunds,General Support,0.9296646619791318,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01212,"I tried to recharge my prepaid number using my credit card, but the amount got deducted twice and my balance is still zero. Please fix it soon, I need to use my phone for work.",Billing,General,Medium,Medium,Finance,General Support,0.8792735049482872,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01317,"I was checking my latest bill and noticed I'm being charged Rs. 599 for data, but I only used a few GB. My last month was Rs. 299. Please sort this out soon, I can't keep paying extra. Not sure if it's a mistake or plan change, but I'd like it fixed.",Billing,General,High,Medium,Finance,General Support,0.9236435130269456,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-01259,"Hey, my calls keep dropping after a few seconds, especially when I try to talk to my mom. I reset the router twice but nothing changes. Also, I noticed my last bill has an extra ₹200 charge I don't understand. Please help fix the call issue and clarify the charge.",Technical,General,Medium,Medium,Technical,General Support,0.9239839776969347,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00618,"Hey, my 4G data has been down since yesterday evening. I tried restarting the phone, toggling airplane mode and even re‑inserting the SIM but still no internet. This is really hurting my work as I need to attend online meetings. Also my caller ID sometimes shows as unknown which is annoying. I think maybe my data pack expired but I didn't get any SMS about it. Please fix the data ASAP, I can't afford to be offline for another day.",Technical,General,High,Medium,Technical,General Support,0.8947770582872181,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Medium"", ""department"":"
+TCK-v1.0-00896,"I tried logging into my acount portal today but it just shows an error saying ""service unavailable"". I even cleared the cache, switched to mobile data and restarted the app, still nothing. Also, I noticed a small Rs.99 charge on my latest bill that I don't remember buying – maybe it's linked? Please look into the portal issue first when you get a chance, the billing thing can wait.",Account,General,Low,Medium,Account,General Support,0.9196598442326831,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01865,"Hey, I noticed my latest bill has an extra Rs.200 charge for a plan I never upgraded to. Can you please correct it? It's not urgent, just want it fixed soon. Thanks.",Billing,General,Low,Medium,Finance,General Support,0.8924110570819721,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-00408,"I did a topup on my mobile yesterday evening but the amount is still missing, and I also see a strange charge on my latest bill. Not sure if it's a system glitch or a billing error, but I would like the money returned, please.",Refund,General,Medium,Medium,Refunds,General Support,0.9052073534639931,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support"
+TCK-v1.0-00655,"Namaste, I just checked my profile on your app and saw my name written as ""Rohit Kumar"" instead of ""Rohit Kumar Singh"" and the address still shows my old flat number. Not a big emergency, but could you please update it when you get a chance? Thanks!",Account,General,Low,Medium,Technical,General Support,0.9241149846579901,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00050,"I was shocked to see I was charged twice for my March prepaid recharge, Rs.499 each. I called support and they said they will check, but still no update. Also my internet speed has been super slow lately, maybe it's related? Please fix the double charge ASAP, I need the money back.",Billing,General,High,Medium,Finance,General Support,0.8898335073263297,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-01746,"Hey, I just got a new SIM but it's not registering on any network. I tried restarting the phone and re-inserting the card but still shows 'No Service'. Please fix this asap, I'm missing important calls.",Technical,General,High,Medium,Technical,General Support,0.9254127759836592,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00123,"I topped up my prepaid number yesterday evening but the balance is still zero. I checked the transaction and the money was deducted from my bank, yet the recharge didn't go through. I called the helpline and was told they'd investigate, but I haven't heard back. Please look into this and process the refund soon – I need the amount for my daily commute. Not sure if it's a system glitch or a payment error, but it’s quite inconvenient.",Refund,General,Medium,Medium,Refunds,General Support,0.9167359827429209,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01486,"Hey, my messages just stopped working. I can’t send SMS to anyone and incoming texts aren’t coming either. Tried restarting phone and checking network, but still nothing. Please fix it soon.",Technical,General,Medium,Medium,Technical,General Support,0.8403447388368477,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+魔法师和精灵蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和蟀魔法师和"
+TCK-v1.0-01335,"Sir, my mobile data has been down since morning and I cannot load even a simple webpage. I've tried restarting, toggling airplane mode, but nothing works. I need it for work calls, please fix ASAP!",Technical,General,High,Medium,Technical,General Support,0.8592335441785508,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-01009,"Hey, my SMS not sending or receiving since morning. I tried restarting phone, checking network, but still nothing. I need to send urgent work messages. Please fix asap!",Technical,General,High,Medium,Technical,General Support,0.9087422081502154,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}魔法师和{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}魔法师和{""category"": ""Technical"
+TCK-v1.0-01404,I tried to top‑up my prepaid number yesterday but the transaction got stuck and the amount was deducted from my bank. Still no recharge and I haven't got any refund yet. Please check and return the money soon. Thanks.,Refund,General,Medium,Medium,Refunds,General Support,0.9098877302881192,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}"
+TCK-v1.0-00543,"Hey team, my mobile data has been actin weird for the past couple of days. I keep seeing 'network unavailable' even in the city centre. I tried toggling airplane mode, restarting the phone and re‑inserting the SIM but still no datta. Not a huge emergency but I need it for work, so please check and get it sorted soon.",Technical,General,Medium,Medium,Technical,General Support,0.927515810793011,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00699,"Hi there, I was checking out the new plan options on your site but I'm a bit confused—does the unlimited data pack also cover hotspot usage or is that extra? Also, I'm not sure how to upgrade my current plan using the app, the steps aren't very clear. Could someone guide me through it? Thanks!",General,General,Medium,Low,General Support,General Support,0.9472953958838843,True,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-00462,"Hey team, I'm really stuck - my SMS's aren't going out and I can't receive any text messages on my phone. I tried restarting, toggling airplane mode, even re‑inserting the SIM, but nothing works. It's been hours and I need to get an OTP for a bank transaction. Please fix this ASAP, it's affecting my work.",Technical,General,Critical,Medium,Technical,General Support,0.9047324853595455,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-01370,"Bhai, I paid my monthly bill via netbanking, Rs.699 got deducted but the app still says I'm pending. Kindly check and update. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8897497343778014,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-00893,"I have a small query regarding the new data pack options. The website shows a 5GB plan but the app still shows the old 3GB one. Not a big deal, just wanted to know which is correct, maybe update the app? Thanks.",General,General,Low,Medium,General Support,General Support,0.9141655426369653,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01878,"Hey, I just got my latest bill and it's higher than usual. Not sure why I'm being charged extra for data, maybe it's a mistake. I didn't notice any service disruption, but the amount seems off. Can you check and let me know?",Billing,General,Low,Medium,Finance,General Support,0.8895057639601873,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00822,"Sir/Ma'am, my data pakage suddenly stopped working since this morning. I tried restarting the phone, toggling airplane mode, even checked my balance – it shows I have 500MB left but there is absolutely no internet. I also saw a charge for extra data usage last month that I never used. I need this fixed right now, I'm unable to do any work and it's causing huge trouble. Please sort it out ASAP!",Technical,General,Critical,Medium,Technical,General Support,0.9087420202799876,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00360,"I recently got a new phone and want to shift my old number to the new SIM, but the app keeps saying my ID is not verified. I tried calling support but was on hold for ages, and I also saw that my data usage for last month isn’t showing up correctly. Can you help me sort the number transfer? Not super urgent, just want it done before I travel next week.",Account,General,Low,Medium,Account,General Support,0.927142316143545,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00879,"Hey, I was checking the new data plan you guys advertised and I'm a bit confused. The brochure says 1.5GB per day but the app shows 1GB. Can someone clarify what's actually included? Not a big deal, just want to know before I upgrade.",General,General,Low,Medium,General Support,General Support,0.9237465808578236,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01100,"I noticed my address and name are wrong on my account portal. I tried updating it but the changes never saved. This is affecting my bill and new SIM delivery. Please fix it ASAP, I'm quite upset.",Account,General,High,Medium,Account,General Support,0.8754853280966017,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+魔法师和机器人{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-00239,"I recently bought a new SIM and tried to transfer my old number to it, but the system still shows the previous SIM as active. Now I cant use data and I'm still getting charges on the old line. I need the ownership transferred to my wife urgently as we are travelling next week. Please sort this out asap, it’s causing a lot of hassle. Plz help!",Account,General,High,Medium,Account,General Support,0.9259012158227051,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01638,"I was trying to check if I can transfer my data to a friend's number, but the app kept crashing. Also, I noticed my last bill shows an extra Rs. 50 that I don't recall using. Can you tell me how to share data and clear that charge? Thanks.",General,General,Low,Low,General Support,General Support,0.9482344004932202,True,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-01179,"I checked my latest bill and it shows I'm on the 199/month plan, but I'm being charged extra ₹150 for data I never used. I thought the plan included unlimited data. Can you please sort this out? It's getting annoying, need this fixed soon.",Billing,General,High,Medium,Finance,General Support,0.917612974196345,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01220,"Sir, my account got locked after I entered wrong password a few times. Now I can't log in to check my data usage or pay my bill. I need it unlocked ASAP, this is really causing trouble. Please help quickly!",Account,General,High,Medium,Account,General Support,0.9253296853362372,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+{""category"
+TCK-v1.0-00003,"Hey team, I asked for a refund on my last prepaid recharge (order #12345) two weeks ago but still see the amount deducted. I even tried calling the helpline, but they said they'd get back in 48 hrs and nothing yet. Also, my data pack keeps dropping after I switch on Wi‑Fi, which is annoying. Please sort the refund fast, I need the money for my upcoming bill.",Refund,General,High,Medium,Refunds,General Support,0.8903576240177244,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+魔法师和女巫{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女"
+TCK-v1.0-01148,"I have been trying to log into my MyTel account for the past 3 days, but every time it says 'invalid credentials' even though I haven't changed my password. Meanwhile, my prepaid balance is not updating after I top‑up. Please fix the login ASAP, I'm missing important bills.",Account,General,High,Medium,Account,General Support,0.9238827103413314,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01308,"Hello, my internet has been down for the past 4 days in the Rajaji Nagar area. I keep getting 'no signal' on my phone and the router shows no connectivity. This is affecting my work, please fix it ASAP!",Technical,Technical,High,High,Technical,Technical,0.8980830198202057,True,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的对话魔法师和女巫的"
+TCK-v1.0-00344,"I have been trying to send SMS from my phone for the last couple of days but they just dont go through, and sometimes I cant even receive any messages. I even turned airplane mode on and off, rebooted the device and checked the network bars, still nothing. Could u please look into this? It's affecting my chats with work.",Technical,General,Medium,Medium,Technical,General Support,0.9348938903849557,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�始化
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01897,"Hey, I just checked my latest bill and there’s an extra Rs. 450 that I never used. I think it’s a mistake, but I’m not sure why it appeared. Could you please look into it and fix the charge? It’s affecting my budget, so a quick resolution would be great.",Billing,General,High,Medium,Finance,General Support,0.8942966273157253,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"":"
+TCK-v1.0-01450,"I cancelled my broadband plan on 5th July and was promised the Rs.1200 refund within a week. It’s now been over two weeks and I haven’t seen any credit. Please look into this and process the refund soon, the delay is causing inconvenience.",Refund,General,Medium,Medium,Finance,General Support,0.9252484171456672,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01551,"I just checked my account and the address and name shown are wrong. I tried updating via the app but it keeps reverting back. This is affecting my bill and service, please fix ASAP.",Account,General,High,Medium,Account,General Support,0.8741233680693767,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+魔法师和机器人{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}"
+TCK-v1.0-00722,"Hey, I’m facing some weird issue with my messages. For the past two days, I can’t send SMS to any of my contacts and incoming texts just don’t show up on my phone. I’ve tried restarting, toggling airplane mode and even checked the SIM, but nothing works. It’s getting really annoying because I need to confirm some appointments. Please sort this out soon.",Technical,General,High,Medium,Technical,General Support,0.9201652709216432,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00170,"Sir, I tried to log in to my myJio account via the app today and it just keeps flashing 'invalid credentials' even though I haven't changed my password. I even did a password reset but the app still throws the same error. Meanwhile, I also saw an extra Rs.150 on my last bill that I can't explain. Please help me fix the login issue first as I need to check my data usage. Thanks!",Account,General,Medium,Medium,Account,General Support,0.9218547965583639,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01156,I have been trying to shift my old SIM to my new number but the portal keeps saying 'owner verification failed'. I also noticed my data usage this month is showing extra 2GB which I didn't use. Please help sort the SIM transfer quickly.,Account,General,Medium,Medium,Account,General Support,0.9232079002490536,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00430,"Sir/Madam, my network has gone practically dead in my area. Even for a simple call, I get that annoying “no service” tone and the data keeps dropping every few seconds. I live in a high‑rise building and this has been happening for over a week now – it’s affecting my work and I can’t even send important emails. Please fix this ASAP, it’s becoming unbearable.",Technical,General,Critical,Medium,Technical,General Support,0.8565662915116263,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}useRalative
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-00362,"Hello team, I wanted to ask what current offers you have for prepaid users. I'm looking for a good data pack with some extra talk time. Can you share the details? Thanks!",General,General,Low,Medium,General Support,General Support,0.9318656662067042,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01938,"I tried to recharge my prepaid number yesterday but the amount got deducted from my bank and my balance still shows zero. The app shows 'payment failed' but I can see the transaction in my statement. Please sort this out, I need the data ASAP. Not sure if I should wait or get a refund.",Billing,General,Medium,Medium,Finance,General Support,0.9022545745369825,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds"
+TCK-v1.0-TOPUP-00009,My account got locked after I typed wrong PIN three times. I tried resetting it but the app says 'service unavailble' and also my data bundle seems not updated. Please help.,Account,General,Low,Medium,Technical,General Support,0.8846464681228099,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+魔法师和机器人{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人魔法师和机器人"
+TCK-v1.0-01218,"I recently bought a new phone and asked to shift my old number to the new SIM, but the system still shows my previous device. Support told me to wait, but it's been 5 days and I can't make calls. Please sort the SIM transfer, I'm stuck.",Account,General,Medium,Medium,Account,General Support,0.9322841401517508,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00255,"Dear team, my latest bill shows Rs.1999 while my plan is Rs.1499. I have been on this plan for 6 months and never faced extra charge before. Kindly check and refund the extra amount. Thanks.",Billing,General,Medium,Medium,Refunds,General Support,0.9203770940380309,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Refunds"
+TCK-v1.0-01174,"Hey, my 4G data has been down since this morning. I keep getting ""network unavailable"" even though the signal bars are full. I tried restarting the phone and re‑inserting the SIM but nothing works. This is affecting my work, please fix it ASAP!",Technical,General,High,Medium,Technical,General Support,0.9218572278728061,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01030,"I asked for my refund a week ago after my prepaid plan got cancelled, but still nothing is in my bank. I keep calling and getting the same generic reply. Please process it ASAP, I'm getting really annoyed.",Refund,General,High,Medium,Refunds,General Support,0.9217202359491239,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}具有战士
+具有战士
+{""category"": ""Refund"", ""priority"": ""High"", ""department"":"
+TCK-v1.0-00559,"Sir, I am really fed up with the terrible signal on my line. Even in my own house the call drops after a few seconds and internet is constantly buffering. I have tried restarting the router, moving the phone around, nothing works. This is affecting my work from home and I need it fixed ASAP or I will have to look for another provider. Please send a technician immediately!",Technical,General,Critical,Medium,Technical,General Support,0.9151951757135066,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00015,"Hello, can you please tell me what recharge options are currently available for my connection? I'm looking for both data packs and any special promos that might suit a student budget. A quick list would be great, thanks!",General,General,Medium,Medium,General Support,General Support,0.9262378057305796,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""} weiber"
+TCK-v1.0-00367,"Sir/Madam, I did a recharge this morning and saw the amount get deducted from my bank, but when I check my prepaid balance it still shows zero. I waited for an hour, even refreshed the app, nothing changed. Could you please look into it? I'm not sure if the payment went through or got stuck somewhere. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.9198010980117033,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00476,"Hi team, could u let me know what rechrge options are there for my prepaid number? I tried looking in the app but the pakages list is kinda messy and I'm not sure which data bundle fits my need. Just need a simple list or guide, thanks.",General,General,Low,Medium,General Support,General Support,0.9148129007558055,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}�
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""Refunds""}'gc"
+TCK-v1.0-00506,"Yaar, the internet has been super slow for the last few days – I get maybe 2 Mbps on a plan that should give me 50 Mbps. I tried restarting the router, checking all the cables and even a quick speed test, but nothing changes. It’s messing up my work from home, though I know sometimes there can be network congestion. Can someone please look into it and get it back to normal? Thanks!",Technical,General,Medium,Medium,Technical,General Support,0.9262056729185133,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01498,"Hey, my new SIM was activated but I still can't get any signal. The phone shows 'no network' even after restarting and re‑inserting the card. I've tried it in different locations, still nothing. Please fix ASAP, it's affecting my work.",Technical,General,High,Medium,Technical,General Support,0.9318640346700704,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00277,"I have been facing constant service drops for the past week. Sometimes my mobile data just stops working and I also notice call quality getting worse. I called support a couple of times but the issue still persists. Not sure if it's a network problem or something on my account, but it's getting really frustrating.",Technical,General,Medium,Medium,Technical,General Support,0.9098166943181241,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}_:*{""{""{"""
+TCK-v1.0-00779,"I tried to log into my account today and it just keeps saying ""invalid credentials"" even though I’m sure I’m using the right password. I even reset it through the app but still can’t get in. This is really annoying, need it fixed asap!",Account,General,High,Medium,Account,General Support,0.9299004051454176,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}useRalative
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00274,"I am extremely frustrated! For the past week my 4G data keeps dropping every few minutes, even after rebooting the router multiple times. I missed important video calls and my work is suffering. This is unacceptable, please fix the network immediately!",Technical,General,Critical,Medium,Technical,General Support,0.8510260058519634,False,"{""category"": ""Technical"", ""priority"": ""Critical"", ""department"": ""Technical""}useRalative
+魔法师和女巫的战斗。{""category"": ""General"", ""priority"": ""Medium"", ""department"": ""General Support""}魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和女巫的战斗。魔法师和"
+TCK-v1.0-00421,"Hey team, I saw that my profile info is off – my name shows as ""Rahul K"" instead of ""Rahul Kumar"" and the address is missing the apartment number. Not a huge rush, just want it corrected when you get a chance. Thanks!",Account,General,Low,Medium,Account,General Support,0.8981485053304823,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01390,"Hey, my SMS is not sending or receiving since this morning. I rebooted the phone, checked network bars and even tried SIM swap, but still nothing. It's messing up my work calls and messages, please fix it quickly!",Technical,General,High,Medium,Technical,General Support,0.876685051858658,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+魔法师和机器人{""{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}""}魔法师和机器人{""{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}""}"
+TCK-v1.0-01210,"Hey, my network drops a lot after 6 PM in my area, especially near my house on MG Road. Calls cut off, data speed slows to 2G. I tried restarting, but nothing. Please look into it soon.",Technical,General,Medium,Medium,Technical,General Support,0.8997901705861295,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫蟀
+{""category"": ""General"", ""priority"": ""Low"", ""department"":"
+TCK-v1.0-01712,"Hey team, I was wondering why my 5GB data pak keeps resetting every month even though I didn't finish it. Maybe it's a system glitch? Please let me know what's up. No rush, just need some clarification.",General,General,Low,Medium,General Support,General Support,0.9258624627632344,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-00550,"Hi, I'm trying to send sms but they just don't go through, and incoming msgs are sometimes missing too. I checked my phone settings and everything seems fine, maybe it's just a network hiccup. No big rush, just hoping it'll sort itself soon.",Technical,General,Low,Medium,Technical,General Support,0.9242164164375026,False,"{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Low"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-01410,"Sir, my 4G data has been dropping for the past two days. I try to open any app and it just says 'No internet', even though balance shows enough and I am in my usual area. I restarted the phone, toggled airplane mode, but nothing changes. Please fix ASAP, it's affecting my work.",Technical,General,High,Medium,Technical,General Support,0.9303366769395325,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00680,"I made a recharge payment a couple of days ago and saw the amount got reversed to my bank, but the deduction is still showing on my telecom bill. I'm not in a rush, just wondering if you could look into it and clear it up when you get a chance. Thanks!",Refund,General,Low,Medium,Refunds,General Support,0.9106097018320725,False,"{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Refunds""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Refund"", ""priority"": ""Low"", ""department"": ""Ref"
+TCK-v1.0-01932,"I tried to recharge my prepaid number today but the payment got stuck. Money was deducted from my bank, yet my balance is still zero. I need the recharge to work now because I'm out of credit for work calls. Please fix ASAP!",Billing,General,High,Medium,Finance,General Support,0.8983247042983749,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative"
+TCK-v1.0-00803,"Hi team, I think I got double charged on my last bill – same amount appears twice for this month. Not sure if it’s a glitch in the system or maybe some plan change I didn’t do. Please look into it and fix the extra charge. Thanks!",Billing,General,Medium,Medium,Finance,General Support,0.9224633516246286,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-01237,"Hi, I got a new SIM last week but the old one is still showing in my app. I want to transfer the number to the new SIM but the system says it's already linked. Not a big rush, just need guidance when you have time. Thanks",Account,General,Low,Medium,Account,General Support,0.919512171212773,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'gc'
+{""category"
+TCK-v1.0-01518,"Sir, my broadband has been crawling for the last few days, sometimes drops to 0.5 Mbps even though I pay for 100. I tried restarting router and checking cables but no luck. Could be line issue or something on your end. Please look into it soon.",Technical,General,Medium,Medium,Technical,General Support,0.9207596530714,False,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�始化
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-00237,"I bought a new SIM last weak and moved to a new city, but the old number is still linked to my previous address. I need to transfer the ownership to my name urgently because I'm getting important OTPs on the old owner's number. Customer care told me to fill a form but nothing changed. Please sort this out fast!",Account,General,High,Medium,Account,General Support,0.9069745649262586,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01783,"I tried logging into my account portal today but it just keeps loading forever, then shows an error saying ""service unavailable"". I even reset my password twice and cleared cache, still nothing. Please sort this out soon – I need to check my usage.",Account,General,High,Medium,Account,General Support,0.8935100242320004,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01555,"I see my Rs. 499 auto‑renewal got deducted today but my account still shows the old plan and I can't access the 5G speed. Also, the app keeps crashing when I try to check the balance. Please fix the billing and let me know when the new plan will be active.",Billing,General,High,Medium,Finance,General Support,0.9166760129442082,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-01754,"Hey, my internet has been down for the last 3 days in my area (Bengaluru West). I keep getting 'No service' on my phone and the broadband LED is off. I've tried restarting router multiple times but nothing works. This is affecting my work from home. Please fix ASAP!",Technical,General,High,Medium,Technical,General Support,0.9281663120596022,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'"
+TCK-v1.0-00833,"I tried to change my address and email id on the app but it keeps throwing some error. It's not super urgent, just want it sorted when you get a chance.",Account,General,Low,Medium,Account,General Support,0.9128198407170203,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}具有战士
+具有战士
+{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}具有战士"
+TCK-v1.0-00020,"Sir/Madam, I noticed my latest bill has a charge for a premium plan that I never switched to. I thought maybe it was a data overuse, but my usage seems normal and I haven't requested any upgrade. Could you please check why this extra amount appeared? I’m not in a rush, but would appreciate a clarification before the next cycle.",Billing,General,Medium,Medium,Finance,General Support,0.9175832438681937,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}'gc'
+{""category"
+TCK-v1.0-01563,"Hey, I got charged twice for my June data pack, amount Rs.500 each, and still my internet keeps dropping after 2GB. I tried calling support but the call dropped. Please sort the duplicate bill and let me know why the speed is so low. Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.9185467582888123,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'"
+TCK-v1.0-00114,"I did a recharge today using my debit card and got a successful transaction message, but my balance still shows zero. The money was deducted from my bank, yet I can't make any calls. Please look into this and credit the amount soon, it's really inconvenient.",Billing,General,Medium,Medium,Finance,General Support,0.8699200399664733,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}�
+魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和机器人魔法师和机器人{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}"
+TCK-v1.0-00100,I tried to recharge my prepaid number today but the payment got deducted twic and my balance is still zero. Please fix this asap or I won't be able to make any calls!,Billing,General,High,Medium,Finance,General Support,0.8956840622108757,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}�
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�"
+TCK-v1.0-00167,"Sir/Madam, my broadband has been super slow since yesterday, pages taking forever to load and video calls keep dropping. I tried restarting the router but nothing changed. Even the bill shows I'm on a 100Mbps plan, yet I'm getting like 2-3Mbps. Please fix this ASAP, I'm working from home and can't afford this downtime.",Technical,General,Critical,Medium,Technical,General Support,0.922359094629428,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00842,"Sir/Ma'am, I have been trying to get any signal for the past two days in my locality (sector 5, near the market). Calls drop instantly, even WhatsApp calls won’t connect and 4G data is stuck at 0kbps. I have rebooted the phone, tried the sim in another device, and still nothing. It’s really affecting my work as I need to attend online meetings. Please look into this ASAP, I can’t keep being offline for so long!",Technical,General,High,Medium,Technical,General Support,0.9249684033729864,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-01966,"I have been trying to understand why my data speed drops after 5 PM, any idea? Not urgent but would love some clarification.",General,General,Low,Medium,General Support,General Support,0.9129346336471826,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-00765,"Hey, my account got locked after I entered the wrong password a few times. I can't even check my data usage or do a recharj. Please unlock it soon, it's quite annoying but I can wait a bit for a fix.",Account,General,Medium,Medium,Account,General Support,0.874222917077077,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}"
+TCK-v1.0-00753,"Sir, my SMS are not sending or receiving since yesterday. I even tried restarting the phone and checking the network but still nothing is working. This is really affecting my work, please look into it soon.",Technical,Technical,Medium,Medium,Technical,Technical,0.8791896832840393,True,"{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}useRalative
+魔法师和女巫的战斗。魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫的战斗魔法师和女巫"
+TCK-v1.0-00098,I made the payment for my bill on 5th July but it still shows as unpaid in the app. Could you please update it when you get a chance? Thanks!,Billing,General,Low,Medium,Finance,General Support,0.8939121347179935,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{"""
+TCK-v1.0-01561,"My calls keep dropping after the first minute, even when I'm on 4G, and it's ruining my work calls. Also, I noticed my data usage shows 2GB used even though I only browsed a few pages. Please fix this ASAP!",Technical,General,Critical,Medium,Technical,General Support,0.9283078622502217,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}useRalative
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}'gc'
+{""category"
+TCK-v1.0-00626,"I keep getting charged twice for my monthly plan and also see some extra data fees I never used. I called support but they just said it's fine. Plz sort this out quickly, I'm really fed up with the bill confusion!",Billing,General,High,Medium,Finance,General Support,0.885984056335019,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00922,"I’ve been trying to move my old number to a new SIM for a few days now but every time I call they say the ownership can’t be verified. My wife’s name is on the account and we need the number for work, it's causing a lot of trouble. Please sort this out asap, I’m really stuck and it’s affecting my daily calls.",Account,General,High,Medium,Account,General Support,0.9250326817291352,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�始化
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01472,"I checked my account and the address shown is wrong, still showing my old apartment. I tried updating it via the app but it keeps revertng. Please fix my profile info soon, it's causing issues with bill delivery.",Account,General,Medium,Medium,Account,General Support,0.8942769026125461,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}具有战士
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}_:*{""{""{"""
+TCK-v1.0-01864,"Hey, I can't login to my MyTel account since yesterday. Every time I enter my password it says 'Invalid credentials' even though I haven't changed it. I've tried resetting the password but the reset link never arrives. This is affecting my bill payments. Please fix ASAP!",Account,General,High,Medium,Account,General Support,0.9289345919282823,False,"{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}�
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""High"", ""department"": ""Account""}'gc'"
+TCK-v1.0-00789,"Mere colony ke side mein network ka signal bahut weak ho gaya hai, kabhi bhi call drop ho jati hai aur internet loading bahut slow ho jata hai. Kabhi‑kabhi toh 4G ka sign bhi milta hi nahi, bas ek do bars hi milta hai. Yeh problem pichle kuch dino se chal rahi hai, aur humare sabhi family members ko kaafi pareshani ho rahi hai. Please check karo, shayad tower ka placement ya configuration mein kuch gadbad ho.",Technical,General,Medium,Medium,Technical,General Support,0.9066899311083034,False,"{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}�
+'gc'
+{""category"": ""Technical"", ""priority"": ""High"", ""department"": ""Technical""}vinfos"
+TCK-v1.0-00647,"Hey team, I was trying to understand why my monthly plan says I have 1GB left but the app shows zero. Also, could you tell me if there is any discount for long term customers? I don't need a quick fix, just some info when you have time.",General,General,Low,Medium,Finance,General Support,0.9300616583454939,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}useRalative
+具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}具有战士
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}_:*"
+TCK-v1.0-01414,"I tried to login to my MyTelecom app today but it keeps saying 'invalid credentials' even though I just reset the password. Also, I noticed my last bill still shows an extra Rs.50 charge that I don't remember. Could you please help me sort the login issue? It's not urgent.",Account,General,Low,Medium,Account,General Support,0.8880643702118505,False,"{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}�
+'gc'{""{""category"": ""Account"", ""priority"": ""Low"", ""department"": ""Account""}'}'gcIntialized{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{""{"""
+TCK-v1.0-01261,"My account got locked after I entered wrong password a few times. I tried resetting it but the system keeps saying it’s blocked. Please help unlock it soon, I need to use my phone for work.",Account,General,Medium,Medium,Account,General Support,0.8529877284845497,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}useRalative
+魔法师和影子的对话{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和影子的对话魔法师和影子的对话{""category"": ""General"", ""priority"": """
+TCK-v1.0-01984,"I paid my last bill on 5th July but the amount still shows as pending and no refund has come back yet. I even called your helpline and they said it would be cleared in 24 hrs, but it's been 4 days. Also, my internet keeps dropping after 2GB usage which is annoying. Please sort the refund ASAP!",Refund,General,High,Medium,Refunds,General Support,0.9096173630082376,False,"{""category"": ""Refund"", ""priority"": ""High"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}'gc'
+'gc'
+{""category"": ""Technical"", ""priority"": ""Medium"", ""department"": ""Technical""}"
+TCK-v1.0-01001,"Hello, I checked my latest bill and it shows two charges of Rs.499 for the same month. I only use one plan, so this duplicate billing is confusing and I need it fixed ASAP. Please look into it and arrange a refund for the extra amount. I’ve been a loyal customer for 3 years, don’t want this to affect my service.",Billing,General,High,Medium,Refunds,General Support,0.9090194881227944,False,"{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}�
+具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}具有战士
+{""category"": ""Billing"", ""priority"": ""High"", ""department"": ""Refunds""}_:*"
+TCK-v1.0-01811,"Hey, my account got locked after a few wrong PIN tries. I tried resetting but the system just keeps saying it's blocked. Not sure if it's a glitch or me messing up, but I need access ASAP for my work. Can you please unlock it or guide me? Thanks.",Account,General,Medium,Medium,Account,General Support,0.9333846244817323,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�始化
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'
+'gc'
+{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}'gc'"
+TCK-v1.0-01411,"Hello, I recently moved to a new apartment and my address in your records is still the old one. I tried updating it through the app but it keeps saying 'error'. Can you please help me change my registered address soon? It's affecting my bill and service.",Account,General,Medium,Medium,Account,General Support,0.8831670472800397,False,"{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}�
+魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}魔法师和机器人{""{""category"": ""Account"", ""priority"": ""Medium"", ""department"": ""Account""}""}"
+TCK-v1.0-01490,"Hey team, I wanted to know if there's any plan that gives extra data on weekends, because my family uses a lot on Saturday evenings. Also, I noticed my SMS inbox shows some old messages that never get deleted, maybe a bug? Not a big deal, just curious. Thanks!",General,General,Low,Medium,General Support,General Support,0.9290034009582087,False,"{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}�始化
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc"
+TCK-v1.0-01421,"I paid my bill today through UPI, amount got deducted from my bank but my account still shows unpaid. I checked the app, nothing updated. Could you please look into it? Not sure if it's a glitch or something. Thanks",Billing,General,Medium,Medium,Refunds,General Support,0.8859152698560138,False,"{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}useRalative
+具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}具有战士
+{""category"": ""Billing"", ""priority"": ""Low"", ""department"": ""Finance""}_:*{""{""{"""
+TCK-v1.0-00141,I did a recharge for my prepaid number yesterday but the balance still shows zero. The app says pending and it's been over 4 hours now. Please look into it and issue a refund or credit my account soon – I need the data for work.,Refund,General,Medium,Medium,Refunds,General Support,0.9170431220522914,False,"{""category"": ""Refund"", ""priority"": ""Medium"", ""department"": ""Refunds""}useRalative
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}'gc'
+'gc'
+{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General"
+TCK-v1.0-01882,"Hey, I noticed my latest bill has been charged for the Premium 4G plan even though I downgraded to the 2GB pack last week. I tried checking the app but it still shows the old plan, and now my internet speed is slower too. Could you please correct the charge and confirm the plan change? Thanks.",Billing,General,Medium,Medium,Finance,General Support,0.8929312721343194,False,"{""category"": ""Billing"", ""priority"": ""Medium"", ""department"": ""Finance""}useRalative
+魔法师和女巫{""category"": ""General"", ""priority"": ""Low"", ""department"": ""General Support""}魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和女巫魔法师和"

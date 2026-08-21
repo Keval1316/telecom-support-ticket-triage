@@ -107,30 +107,48 @@ def load_model(base_model_path: str, adapter_path: str):
 
 
 def extract_json(text: str) -> dict:
-    """Extract and parse structured JSON response from generated output."""
+    """Extract and parse structured JSON response cleanly from generated output."""
     clean_text = text.strip()
     clean_text = re.sub(r"^```(?:json)?\s*", "", clean_text)
     clean_text = re.sub(r"\s*```$", "", clean_text)
 
-    match = re.search(r"\{[\s\S]*\}", clean_text)
-    if match:
-        clean_text = match.group(0)
+    # 1. Try raw_decode from first opening brace '{'
+    start_idx = clean_text.find("{")
+    if start_idx != -1:
+        try:
+            data, _ = json.JSONDecoder().raw_decode(clean_text[start_idx:])
+            if isinstance(data, dict):
+                return {
+                    "category": str(data.get("category", "General")).strip(),
+                    "priority": str(data.get("priority", "Medium")).strip(),
+                    "department": str(data.get("department", "General Support")).strip(),
+                    "raw_valid": True,
+                }
+        except Exception:
+            pass
 
-    try:
-        data = json.loads(clean_text)
-        return {
-            "category": data.get("category", "General"),
-            "priority": data.get("priority", "Medium"),
-            "department": data.get("department", "General Support"),
-            "raw_valid": True,
-        }
-    except Exception:
-        return {
-            "category": "General",
-            "priority": "Medium",
-            "department": "General Support",
-            "raw_valid": False,
-        }
+    # 2. Try non-greedy regex matching '{...}'
+    match = re.search(r"\{[^{}]*\}", clean_text)
+    if match:
+        try:
+            data = json.loads(match.group(0))
+            if isinstance(data, dict):
+                return {
+                    "category": str(data.get("category", "General")).strip(),
+                    "priority": str(data.get("priority", "Medium")).strip(),
+                    "department": str(data.get("department", "General Support")).strip(),
+                    "raw_valid": True,
+                }
+        except Exception:
+            pass
+
+    # 3. Fallback
+    return {
+        "category": "General",
+        "priority": "Medium",
+        "department": "General Support",
+        "raw_valid": False,
+    }
 
 
 def predict_single(model, tokenizer, review: str) -> Tuple[dict, float, str]:
