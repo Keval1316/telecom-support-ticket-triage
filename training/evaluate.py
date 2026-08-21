@@ -59,26 +59,44 @@ def parse_args():
 
 
 def load_model(base_model_path: str, adapter_path: str):
-    print(f"Loading base model from {base_model_path} in 4-bit...")
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,
-    )
+    # Check if base model path exists locally; if not, fallback to HF hub repo ID
+    if not Path(base_model_path).exists():
+        print(f"Local base model path '{base_model_path}' not found. Downloading/caching from HF Hub: 'Qwen/Qwen2.5-3B'...")
+        base_model_path = "Qwen/Qwen2.5-3B"
+
+    print(f"Loading base model from {base_model_path}...")
     tokenizer = AutoTokenizer.from_pretrained(base_model_path)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    base_model = AutoModelForCausalLM.from_pretrained(
-        base_model_path,
-        quantization_config=bnb_config,
-        device_map="auto",
-        trust_remote_code=True,
-    )
+    has_cuda = torch.cuda.is_available()
+    if has_cuda:
+        use_bf16 = torch.cuda.is_bf16_supported()
+        compute_dtype = torch.bfloat16 if use_bf16 else torch.float16
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=compute_dtype,
+            bnb_4bit_use_double_quant=True,
+        )
+        print("CUDA detected: loading model in 4-bit NF4 quantization...")
+        base_model = AutoModelForCausalLM.from_pretrained(
+            base_model_path,
+            quantization_config=bnb_config,
+            device_map="auto",
+            trust_remote_code=True,
+        )
+    else:
+        print("No CUDA GPU detected: loading model in Float32 on CPU...")
+        base_model = AutoModelForCausalLM.from_pretrained(
+            base_model_path,
+            torch_dtype=torch.float32,
+            device_map="cpu",
+            trust_remote_code=True,
+        )
 
     if Path(adapter_path).exists() and (Path(adapter_path) / "adapter_config.json").exists():
-        print(f"Loading LoRA adapter from {adapter_path}...")
+        print(f"Loading fine-tuned LoRA adapter from {adapter_path}...")
         model = PeftModel.from_pretrained(base_model, adapter_path)
         model.eval()
     else:
